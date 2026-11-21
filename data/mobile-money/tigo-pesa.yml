@@ -1,7 +1,7 @@
 id: provider-tigo-pesa
 entity_type: provider
 category: mobile-money
-name: Tigo Pesa
+name: Mixx by Yas
 provider: null
 region: East Africa
 countries:
@@ -16,8 +16,9 @@ repo_url: null
 docs_url: null
 website_url: https://www.yas.co.tz
 status: active
-notes: Mobile money provider with active community wrappers and plugins.
+notes: Formerly Tigo Pesa, renamed Mixx by Yas in November 2024. Mobile money provider with community wrappers and plugins.
 tags:
+  - mixx-by-yas
   - tigo-pesa
   - tanzania
   - mobile-money

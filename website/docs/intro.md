@@ -14,4 +14,4 @@ Current focus includes East Africa and Pan-African payment systems, with clear `
 
 ## Contribution
 
-Fork the [repository](https://github.com/alphaolomi/awesome-payment-intergations) and submit provider or SDK records in `data/` using the schema in `data/SCHEMA.md`.
+Fork the [repository](https://github.com/alphaolomi/awesome-payment-integrations) and submit provider or SDK records in `data/` using the schema in `data/SCHEMA.md`.

@@ -2,7 +2,7 @@ id: sdk-laravel-tigopesa-push
 entity_type: sdk
 category: sdk
 name: Laravel Tigo Pesa Push
-provider: Tigo Pesa
+provider: Mixx by Yas
 region: East Africa
 countries:
   - Tanzania

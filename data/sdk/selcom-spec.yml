@@ -1,0 +1,22 @@
+id: sdk-selcom-spec
+entity_type: sdk
+category: utility
+name: selcom-spec
+provider: Selcom
+region: East Africa
+countries:
+  - Tanzania
+languages:
+  - Language-agnostic
+integration_types:
+  - Utility
+maintainer_type: community
+repo_url: https://github.com/selcom-developers/selcom-spec
+docs_url: https://selcom-developers.github.io/spec
+website_url: https://selcom-developers.github.io/
+status: active
+notes: Shared specification and test vectors for Selcom API clients in any language.
+tags:
+  - selcom
+  - specification
+  - tanzania

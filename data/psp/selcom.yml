@@ -7,8 +7,11 @@ region: East Africa
 countries:
   - Tanzania
 languages:
+  - Java
+  - JavaScript
   - Laravel
   - PHP
+  - Python
 integration_types:
   - API
   - SDK
@@ -17,7 +20,7 @@ repo_url: null
 docs_url: null
 website_url: https://selcom.net
 status: active
-notes: PSP with a community Laravel package listed in this repository.
+notes: PSP with community client libraries listed in this repository.
 tags:
   - selcom
   - tanzania

@@ -1,0 +1,23 @@
+id: sdk-selcom-php
+entity_type: sdk
+category: sdk
+name: selcom-php
+provider: Selcom
+region: East Africa
+countries:
+  - Tanzania
+languages:
+  - PHP
+integration_types:
+  - API
+  - SDK
+maintainer_type: community
+repo_url: https://github.com/selcom-developers/selcom-php
+docs_url: https://selcom-developers.github.io/clients/php
+website_url: https://selcom-developers.github.io/
+status: active
+notes: Community framework-agnostic PHP client for the Selcom API, built from the shared selcom-spec.
+tags:
+  - selcom
+  - php
+  - tanzania

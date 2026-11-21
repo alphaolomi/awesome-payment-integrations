@@ -16,12 +16,12 @@ const config: Config = {
   url: 'https://alphaolomi.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/awesome-payment-intergations/',
+  baseUrl: '/awesome-payment-integrations/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'alphaolomi',
-  projectName: 'awesome-payment-intergations',
+  projectName: 'awesome-payment-integrations',
 
   onBrokenLinks: 'throw',
 
@@ -40,7 +40,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           editUrl:
-            'https://github.com/alphaolomi/awesome-payment-intergations/edit/main/website/',
+            'https://github.com/alphaolomi/awesome-payment-integrations/edit/main/website/',
         },
         blog: {
           showReadingTime: true,
@@ -49,7 +49,7 @@ const config: Config = {
             xslt: true,
           },
           editUrl:
-            'https://github.com/alphaolomi/awesome-payment-intergations/edit/main/website/blog/',
+            'https://github.com/alphaolomi/awesome-payment-integrations/edit/main/website/blog/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -82,7 +82,7 @@ const config: Config = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/alphaolomi/awesome-payment-intergations',
+          href: 'https://github.com/alphaolomi/awesome-payment-integrations',
           label: 'GitHub',
           position: 'right',
         },
@@ -118,7 +118,7 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/alphaolomi/awesome-payment-intergations',
+              href: 'https://github.com/alphaolomi/awesome-payment-integrations',
             },
           ],
         },
