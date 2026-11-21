@@ -7,7 +7,7 @@ sidebar_position: 2
 <!-- [TigoPesa](https://github.com/techcraftlabs/tigopesa) <br/> -->
 
 ![img alt](/img/mobile/tigopesa.png) <br/>
-Provider: Tigo <br/>
+Provider: Mixx by Yas (formerly Tigo Pesa) <br/>
 Resource(URL): [TigoPesa](https://github.com/techcraftlabs/tigopesa)<br/>
 
 ![img alt](/img/mobile/mpesa.png) <br/>

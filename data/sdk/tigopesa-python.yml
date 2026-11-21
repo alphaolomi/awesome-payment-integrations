@@ -2,7 +2,7 @@ id: sdk-tigopesa-python
 entity_type: sdk
 category: sdk
 name: Tigo Pesa Python
-provider: Tigo Pesa
+provider: Mixx by Yas
 region: East Africa
 countries:
   - Tanzania

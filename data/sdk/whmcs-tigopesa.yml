@@ -2,7 +2,7 @@ id: sdk-whmcs-tigopesa
 entity_type: sdk
 category: plugin
 name: WHMCS Tigo Pesa
-provider: Tigo Pesa
+provider: Mixx by Yas
 region: East Africa
 countries:
   - Tanzania

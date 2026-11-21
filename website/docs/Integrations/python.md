@@ -5,7 +5,7 @@ sidebar_position: 5
 # Python
 
 ![img alt](/img/mobile/tigopesa.png) <br/>
-Provider: Tigo <br/>
+Provider: Mixx by Yas (formerly Tigo Pesa) <br/>
 Resource: [TigoPesa](https://github.com/Kalebu/tigopesa)<br/>
 Documentation: [URL](https://github.com/Kalebu/tigopesa)
 

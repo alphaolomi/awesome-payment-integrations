@@ -1,0 +1,23 @@
+id: sdk-selcompy
+entity_type: sdk
+category: sdk
+name: selcompy
+provider: Selcom
+region: East Africa
+countries:
+  - Tanzania
+languages:
+  - Python
+integration_types:
+  - API
+  - SDK
+maintainer_type: community
+repo_url: https://github.com/selcom-developers/selcompy
+docs_url: https://selcom-developers.github.io/clients/python
+website_url: https://selcom-developers.github.io/
+status: active
+notes: Community Python client for the Selcom API (sync and async), built from the shared selcom-spec.
+tags:
+  - selcom
+  - python
+  - tanzania

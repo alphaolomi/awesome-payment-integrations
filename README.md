@@ -19,13 +19,19 @@ This repository is organized for regional discovery:
 - Push/USSD (Laravel) - [tumainimosha/laravel-mpesa-push](https://github.com/tumainimosha/laravel-mpesa-push) (`community`)
 - SDK Docs (Python) - [python-pesa](https://kalebu.github.io/python-pesa/) (`community`)
 
-#### Tigo Pesa
+#### Mixx by Yas (formerly Tigo Pesa)
 - Push/USSD (Laravel) - [tumainimosha/laravel-tigopesa-push](https://github.com/tumainimosha/laravel-tigopesa-push) (`community`)
 - SDK (Python) - [Kalebu/tigopesa](https://github.com/Kalebu/tigopesa) (`community`)
 - Plugin (WHMCS) - [devmedtz/whmcs-tigopesa](https://github.com/devmedtz/whmcs-tigopesa) (`community`)
 
 #### Selcom
+- SDK (Java) - [selcom-developers/selcom4j](https://github.com/selcom-developers/selcom4j) (`community`)
+- SDK (Node.js) - [selcom-developers/selcom-node](https://github.com/selcom-developers/selcom-node) (`community`)
+- SDK (PHP) - [selcom-developers/selcom-php](https://github.com/selcom-developers/selcom-php) (`community`)
+- SDK (Laravel) - [selcom-developers/laravel-selcom](https://github.com/selcom-developers/laravel-selcom) (`community`)
 - SDK (Laravel) - [bryceandy/laravel-selcom](https://github.com/bryceandy/laravel-selcom) (`community`)
+- SDK (Python) - [selcom-developers/selcompy](https://github.com/selcom-developers/selcompy) (`community`)
+- Client specification - [selcom-developers/selcom-spec](https://github.com/selcom-developers/selcom-spec) (`community`)
 
 #### NMB Bank
 - SDK (Django/Python) - [devmedtz/django-nmb](https://github.com/devmedtz/django-nmb) (`community`)
