@@ -1,0 +1,29 @@
+id: provider-monime
+entity_type: provider
+category: psp
+name: Monime
+provider: null
+region: West Africa
+countries:
+- Sierra Leone
+languages:
+- HTTP API
+integration_types:
+- API
+- SDK
+- Hosted Checkout
+- Plugin
+maintainer_type: official
+repo_url: null
+docs_url: https://docs.monime.io/docs/get-started
+website_url: https://monime.io/
+status: active
+api_access: sign-up
+licence: null
+last_verified: '2026-11-21'
+notes: 'Sierra Leone payment platform: checkout sessions, payment codes, payouts to banks and mobile money, USSD flows and financial accounts, with a test mode.'
+tags:
+- monime
+- sierra-leone
+- mobile-money
+- sle

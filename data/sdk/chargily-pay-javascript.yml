@@ -1,0 +1,25 @@
+id: sdk-chargily-pay-javascript
+entity_type: sdk
+category: sdk
+name: Chargily Pay JavaScript SDK
+provider: Chargily Pay
+region: North Africa
+countries:
+- Algeria
+languages:
+- JavaScript
+integration_types:
+- SDK
+maintainer_type: official
+repo_url: https://github.com/Chargily/chargily-pay-javascript
+docs_url: https://dev.chargily.com/pay-v2/introduction
+website_url: https://chargily.com/
+status: active
+api_access: sign-up
+licence: null
+last_verified: 2026-11-21
+notes: Official JavaScript client for the Chargily Pay v2 API.
+tags:
+- chargily
+- algeria
+- javascript

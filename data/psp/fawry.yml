@@ -1,0 +1,27 @@
+id: provider-fawry
+entity_type: provider
+category: psp
+name: Fawry
+provider: null
+region: North Africa
+countries:
+- Egypt
+languages:
+- HTTP API
+integration_types:
+- API
+- Hosted Checkout
+- Plugin
+maintainer_type: unknown
+repo_url: null
+docs_url: https://developers.fawrystaging.com/fawrypay/gettingStarted
+website_url: https://www.fawry.com/
+status: active
+api_access: on-request
+licence: null
+last_verified: 2026-11-21
+notes: Egyptian e-payments provider; FawryPay developer guide (staging site) for online checkout. The guide is client-rendered, so contents are only partly confirmed.
+tags:
+- fawry
+- fawrypay
+- egypt

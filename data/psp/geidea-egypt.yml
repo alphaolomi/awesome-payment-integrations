@@ -1,0 +1,29 @@
+id: provider-geidea-egypt
+entity_type: provider
+category: psp
+name: Geidea
+provider: null
+region: North Africa
+countries:
+- Egypt
+languages:
+- HTTP API
+integration_types:
+- API
+- Hosted Checkout
+- SDK
+- Plugin
+maintainer_type: unknown
+repo_url: null
+docs_url: https://docs.geidea.net/docs/overview
+website_url: https://www.geidea.net/ksa/en
+status: active
+api_access: sign-up
+licence: null
+last_verified: 2026-11-21
+notes: Gateway with hosted checkout, direct API, pay-by-link, tokenization, Meeza QR, BNPL, plugins and mobile SDKs; docs also cover KSA and UAE.
+tags:
+- geidea
+- egypt
+- meeza
+- bnpl

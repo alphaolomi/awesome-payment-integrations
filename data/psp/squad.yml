@@ -1,0 +1,27 @@
+id: provider-squad
+entity_type: provider
+category: psp
+name: Squad
+provider: null
+region: West Africa
+countries:
+- Nigeria
+languages:
+- HTTP API
+integration_types:
+- API
+- Hosted Checkout
+maintainer_type: official
+repo_url: null
+docs_url: https://docs.squadco.com/
+website_url: https://squadco.com/
+status: active
+api_access: sign-up
+licence: null
+last_verified: '2026-11-21'
+notes: Payment gateway with virtual accounts, USSD, payment links, transfers to Nigerian beneficiaries, recurring payments and refunds. Self-serve sandbox at sandbox.squadco.com.
+tags:
+- squad
+- nigeria
+- virtual-accounts
+- ussd

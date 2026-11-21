@@ -1,0 +1,30 @@
+id: provider-chapa
+entity_type: provider
+category: psp
+name: Chapa
+provider: Chapa Financial Technologies
+region: East Africa
+countries:
+- Ethiopia
+languages:
+- HTTP API
+integration_types:
+- API
+- SDK
+- Hosted Checkout
+- Plugin
+maintainer_type: official
+repo_url: null
+docs_url: https://developer.chapa.co/
+website_url: https://chapa.co
+status: active
+api_access: sign-up
+licence: null
+last_verified: 2026-11-21
+notes: 'Ethiopian gateway for cards, mobile money and bank transfers: checkout, direct charge, transfers, virtual accounts, webhooks, test mode.'
+tags:
+- chapa
+- ethiopia
+- etb
+- transfers
+- webhooks

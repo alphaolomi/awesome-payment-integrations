@@ -1,0 +1,28 @@
+id: provider-youcan-pay
+entity_type: provider
+category: psp
+name: YouCan Pay
+provider: null
+region: North Africa
+countries:
+- Morocco
+languages:
+- HTTP API
+integration_types:
+- API
+- Hosted Checkout
+- Plugin
+maintainer_type: unknown
+repo_url: null
+docs_url: https://docs.youcan.shop/youcan-pay/introduction
+website_url: https://youcanpay.com/
+status: active
+api_access: sign-up
+licence: null
+last_verified: 2026-11-21
+notes: Moroccan gateway with REST API v2 (private key or OAuth) and the yp.js payment form; prices in MAD, CashPlus cash option.
+tags:
+- youcan-pay
+- morocco
+- mad
+- yp-js

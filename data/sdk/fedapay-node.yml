@@ -1,0 +1,29 @@
+id: sdk-fedapay-node
+entity_type: sdk
+category: sdk
+name: FedaPay Node.js library
+provider: FedaPay
+region: West Africa
+countries:
+- Benin
+- Togo
+- Côte d'Ivoire
+- Niger
+- Senegal
+languages:
+- JavaScript
+integration_types:
+- SDK
+maintainer_type: official
+repo_url: https://github.com/fedapay/fedapay-node
+docs_url: https://docs.fedapay.com/fr/integration-api/librairies
+website_url: https://fedapay.com/
+status: active
+api_access: sign-up
+licence: null
+last_verified: '2026-11-21'
+notes: Official Node.js library listed in FedaPay's docs.
+tags:
+- fedapay
+- sdk
+- node

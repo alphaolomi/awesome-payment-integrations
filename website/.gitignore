@@ -18,3 +18,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# generated from ../data by scripts/build-catalogue.mjs
+/src/data/catalogue.json

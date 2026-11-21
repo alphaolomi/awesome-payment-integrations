@@ -1,0 +1,34 @@
+id: provider-paydunya
+entity_type: provider
+category: psp
+name: PayDunya
+provider: null
+region: West Africa
+countries:
+- Senegal
+- Benin
+- Côte d'Ivoire
+- Togo
+- Mali
+- Burkina Faso
+languages:
+- HTTP API
+integration_types:
+- API
+- Hosted Checkout
+- Plugin
+maintainer_type: official
+repo_url: null
+docs_url: https://developers.paydunya.com/doc/FR/introduction
+website_url: https://paydunya.com/
+status: active
+api_access: sign-up
+licence: null
+last_verified: '2026-11-21'
+notes: Mobile money aggregator (Orange Money, Wave, MTN, Moov, Free Money, T-Money and others) with collection, push payout, status, balance and payment-request APIs and a sandbox. Countries come from the operator list in the docs introduction.
+tags:
+- paydunya
+- francophone
+- senegal
+- orange-money
+- wave

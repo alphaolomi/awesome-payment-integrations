@@ -5,12 +5,12 @@ name: selcom4j
 provider: Selcom
 region: East Africa
 countries:
-  - Tanzania
+- Tanzania
 languages:
-  - Java
+- Java
 integration_types:
-  - API
-  - SDK
+- API
+- SDK
 maintainer_type: community
 repo_url: https://github.com/selcom-developers/selcom4j
 docs_url: https://selcom-developers.github.io/clients/java
@@ -18,6 +18,6 @@ website_url: https://selcom-developers.github.io/
 status: active
 notes: Community Java client for the Selcom API, built from the shared selcom-spec.
 tags:
-  - selcom
-  - java
-  - tanzania
+- selcom
+- java
+- tanzania

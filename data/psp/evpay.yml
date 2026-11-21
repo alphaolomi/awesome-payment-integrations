@@ -1,0 +1,28 @@
+id: provider-evpay
+entity_type: provider
+category: psp
+name: EvPay
+provider: EvMak (T) Limited
+region: East Africa
+countries:
+- Tanzania
+languages:
+- HTTP API
+integration_types:
+- API
+- Push USSD
+maintainer_type: official
+repo_url: null
+docs_url: https://docs.evpay.co.tz/introduction
+website_url: https://web.evpay.co.tz/
+status: active
+api_access: sign-up
+licence: Bank of Tanzania, non-bank payment system provider (listed as EvMak(T) Limited)
+last_verified: 2026-11-21
+notes: Payment gateway for mobile money, bank, card and QR payments in TZS, with a documented sandbox environment. Run by EvMak (T) Limited.
+tags:
+- evpay
+- evmak
+- gateway
+- sandbox
+- tanzania

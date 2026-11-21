@@ -1,0 +1,32 @@
+id: provider-tingg-cellulant
+entity_type: provider
+category: psp
+name: Tingg (Cellulant)
+provider: Cellulant Tanzania Limited
+region: Pan-African
+countries:
+- Kenya
+- Tanzania
+- Nigeria
+- Ghana
+- Uganda
+languages:
+- HTTP API
+integration_types:
+- API
+- Hosted Checkout
+maintainer_type: official
+repo_url: null
+docs_url: https://docs.tingg.africa
+website_url: https://tingg.africa
+status: active
+api_access: on-request
+licence: Bank of Tanzania, non-bank payment system provider (listed as Cellulant Tanzania Limited)
+last_verified: 2026-11-21
+notes: Tingg Checkout, Payouts and Engage APIs; docs say it covers 25 African countries and name Tanzania, Nigeria, Ghana and Uganda. Tanzania is served through Cellulant Tanzania Limited. This is the Tanzania entry; the pan-African record may overlap.
+tags:
+- tingg
+- cellulant
+- checkout
+- payouts
+- tanzania

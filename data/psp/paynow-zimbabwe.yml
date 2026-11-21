@@ -1,0 +1,29 @@
+id: provider-paynow-zimbabwe
+entity_type: provider
+category: psp
+name: Paynow
+provider: null
+region: Southern Africa
+countries:
+- Zimbabwe
+languages:
+- HTTP API
+integration_types:
+- API
+- Hosted Checkout
+- Plugin
+- SDK
+maintainer_type: official
+repo_url: https://github.com/paynow
+docs_url: https://developers.paynow.co.zw/
+website_url: https://www.paynow.co.zw/
+status: active
+api_access: sign-up
+licence: null
+last_verified: 2026-11-21
+notes: Zimbabwe gateway for mobile money and cards, plus BillPay, SMS/airtime and fiscalisation APIs. Official SDKs exist on GitHub.
+tags:
+- paynow
+- zimbabwe
+- ecocash
+- onemoney

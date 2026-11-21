@@ -1,26 +1,38 @@
 id: provider-dpo-group
 entity_type: provider
 category: psp
-name: DPO Group
+name: DPO Pay
 provider: null
 region: Pan-African
 countries:
-  - Tanzania
-  - Kenya
-  - Uganda
+- Kenya
+- Uganda
+- Tanzania
+- Rwanda
+- Ghana
+- Zambia
+- Namibia
+- Botswana
 languages:
-  - PHP
-  - Laravel
+- HTTP API
 integration_types:
-  - API
-  - SDK
-maintainer_type: official
+- API
+- Hosted Checkout
+- Plugin
+maintainer_type: unknown
 repo_url: null
-docs_url: null
-website_url: https://dpogroup.com
+docs_url: https://docs.dpopay.com/dpo-pay-by-network
+website_url: https://dpogroup.com/
 status: active
-notes: Pan-African payment provider represented by community PHP and Laravel packages.
+api_access: sign-up
+licence: null
+last_verified: 2026-11-21
+notes: Card and mobile-money PSP with hosted payment page, API, plugins, sandbox and Postman collections. Website names nine countries and says 20+; the full list was not retrievable.
 tags:
-  - dpo
-  - pan-african
-  - psp
+- dpo
+- network
+- cards
+- mobile-money
+- hosted-page
+- pan-african
+- psp

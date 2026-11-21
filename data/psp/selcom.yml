@@ -2,26 +2,29 @@ id: provider-selcom
 entity_type: provider
 category: psp
 name: Selcom
-provider: null
+provider: Selcom Paytech Limited
 region: East Africa
 countries:
-  - Tanzania
+- Tanzania
 languages:
-  - Java
-  - JavaScript
-  - Laravel
-  - PHP
-  - Python
+- HTTP API
 integration_types:
-  - API
-  - SDK
+- API
+- Hosted Checkout
+- Push USSD
 maintainer_type: official
-repo_url: null
-docs_url: null
-website_url: https://selcom.net
+repo_url: https://github.com/selcompaytechltd
+docs_url: https://developers.selcommobile.com
+website_url: https://www.selcom.net
 status: active
-notes: PSP with community client libraries listed in this repository.
+api_access: on-request
+licence: Bank of Tanzania, non-bank payment system provider
+last_verified: 2026-11-21
+notes: 'Selcom gateway API: utility and bill payments, wallet cash-in, C2B collection, checkout, bank transfers (Qwiksend), virtual card numbers and IMT. HMAC or RSA signed requests; keys issued by Selcom on request.'
 tags:
-  - selcom
-  - tanzania
-  - psp
+- selcom
+- utility
+- checkout
+- qwiksend
+- tanzania
+- psp

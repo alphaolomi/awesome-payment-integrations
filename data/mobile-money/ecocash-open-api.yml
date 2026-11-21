@@ -1,0 +1,26 @@
+id: provider-ecocash-open-api
+entity_type: provider
+category: mobile-money
+name: EcoCash Open API
+provider: null
+region: Southern Africa
+countries:
+- Zimbabwe
+languages:
+- HTTP API
+integration_types:
+- API
+- Push USSD
+maintainer_type: unknown
+repo_url: null
+docs_url: https://developers.ecocash.co.zw/
+website_url: https://ecocash.co.zw/
+status: active
+api_access: sign-up
+licence: null
+last_verified: 2026-11-21
+notes: Online payments, cash-in, merchant-to-subscriber, change disbursement and transaction lookup APIs, with a free simulated sandbox.
+tags:
+- ecocash
+- zimbabwe
+- sandbox

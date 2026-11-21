@@ -1,0 +1,28 @@
+id: provider-paga
+entity_type: provider
+category: mobile-money
+name: Paga
+provider: null
+region: West Africa
+countries:
+- Nigeria
+languages:
+- HTTP API
+integration_types:
+- API
+- SDK
+maintainer_type: official
+repo_url: null
+docs_url: https://developer-docs.paga.com/docs/business-rest-api
+website_url: https://www.mypaga.com/
+status: active
+api_access: on-request
+licence: null
+last_verified: '2026-11-21'
+notes: 'Paga Business REST API: bank transfers, Paga-to-Paga transfers, airtime and data, bill payment, balance and history, and sub-merchant onboarding. Docs list client libraries for Java, Python, Node and PHP.'
+tags:
+- paga
+- nigeria
+- wallet
+- bills
+- airtime

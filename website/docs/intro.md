@@ -2,15 +2,15 @@
 sidebar_position: 1
 ---
 
-# Awesome African Payment Integrations
+# Malipo
 
-A curated index of African payment providers, mobile money APIs, and SDKs.
+Malipo (Swahili for "payments") is a curated index of African payment providers with usable APIs, and the SDKs for them. Browse it in the [directory](/directory).
 
 The catalogue is organized for faster discovery:
 
 `Region -> Country -> Provider -> SDK/Library`
 
-Current focus includes East Africa and Pan-African payment systems, with clear `official` vs `community` maintainer labels.
+Every provider is labelled by how you get API access (open, sign-up or on request), and every SDK as `official` or `community`.
 
 ## Contribution
 

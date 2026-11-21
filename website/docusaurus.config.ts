@@ -5,8 +5,9 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Awesome African Payment Integrations',
-  tagline: 'Curated APIs, PSPs, and mobile money integrations across Africa',
+  title: 'Malipo',
+  tagline: 'African payment APIs, curated',
+  favicon: 'img/favicon.svg',
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
@@ -24,6 +25,14 @@ const config: Config = {
   projectName: 'awesome-payment-integrations',
 
   onBrokenLinks: 'throw',
+
+  headTags: [
+    {tagName: 'link', attributes: {rel: 'preconnect', href: 'https://fonts.googleapis.com'}},
+    {tagName: 'link', attributes: {rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: 'anonymous'}},
+  ],
+  stylesheets: [
+    'https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap',
+  ],
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -63,17 +72,18 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/logo.svg',
+    image: 'img/social-card.png',
     colorMode: {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'Payments Africa',
+      title: 'Malipo',
       logo: {
-        alt: 'Payment Integrations',
+        alt: 'Malipo',
         src: 'img/logo.svg',
       },
       items: [
+        {to: '/directory', label: 'Directory', position: 'left'},
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
@@ -92,11 +102,13 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Catalogue',
           items: [
+            {label: 'Directory', to: '/directory'},
+            {label: 'Introduction', to: '/docs/intro'},
             {
-              label: 'Introduction',
-              to: '/docs/intro',
+              label: 'Add a provider',
+              href: 'https://github.com/alphaolomi/awesome-payment-integrations/blob/main/data/SCHEMA.md',
             },
           ],
         },
@@ -123,7 +135,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Awesome African Payment Integrations. Built with Docusaurus.`,
+      copyright: `© ${new Date().getFullYear()} Malipo · Awesome African Payment Integrations`,
     },
     prism: {
       theme: prismThemes.github,

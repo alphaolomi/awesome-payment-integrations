@@ -18,7 +18,7 @@ export default function FooterWrapper(props: Props): ReactNode {
           color: 'var(--ifm-color-emphasis-700)',
           backgroundColor: 'var(--ifm-footer-background-color)',
         }}>
-        Catalogue is powered by structured YAML records under <code>data/</code>.
+        The catalogue is built from YAML records in <code>data/</code>. Listings are checked by hand; confirm terms with each provider.
       </div>
     </>
   );

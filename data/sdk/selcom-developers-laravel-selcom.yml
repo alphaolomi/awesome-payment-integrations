@@ -5,13 +5,13 @@ name: laravel-selcom (selcom-developers)
 provider: Selcom
 region: East Africa
 countries:
-  - Tanzania
+- Tanzania
 languages:
-  - Laravel
-  - PHP
+- Laravel
+- PHP
 integration_types:
-  - API
-  - SDK
+- API
+- SDK
 maintainer_type: community
 repo_url: https://github.com/selcom-developers/laravel-selcom
 docs_url: https://selcom-developers.github.io/clients/laravel
@@ -19,6 +19,6 @@ website_url: https://selcom-developers.github.io/
 status: active
 notes: Community Laravel package for the Selcom API, built on selcom-php.
 tags:
-  - selcom
-  - laravel
-  - tanzania
+- selcom
+- laravel
+- tanzania

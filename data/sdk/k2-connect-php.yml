@@ -1,0 +1,25 @@
+id: sdk-k2-connect-php
+entity_type: sdk
+category: sdk
+name: k2-connect-php
+provider: Kopo Kopo
+region: East Africa
+countries:
+- Kenya
+languages:
+- PHP
+integration_types:
+- SDK
+maintainer_type: official
+repo_url: https://github.com/kopokopo/k2-connect-php
+docs_url: https://api-docs.kopokopo.com/
+website_url: null
+status: active
+api_access: sign-up
+licence: null
+last_verified: 2026-11-21
+notes: Kopo Kopo's PHP SDK; repo last updated May 2026.
+tags:
+- kopokopo
+- php
+- sdk

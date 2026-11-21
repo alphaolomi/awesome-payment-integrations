@@ -1,0 +1,27 @@
+id: provider-kashier
+entity_type: provider
+category: psp
+name: Kashier
+provider: null
+region: North Africa
+countries:
+- Egypt
+languages:
+- HTTP API
+integration_types:
+- API
+- Hosted Checkout
+- Plugin
+maintainer_type: unknown
+repo_url: null
+docs_url: https://developers.kashier.io/
+website_url: https://www.kashier.io/
+status: active
+api_access: sign-up
+licence: null
+last_verified: 2026-11-21
+notes: 'Egypt gateway: payment sessions API returning a hosted checkout URL, cards, wallets, installments, plugins, playground, Postman collection and llms.txt.'
+tags:
+- kashier
+- egypt
+- payment-sessions

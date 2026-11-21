@@ -1,0 +1,34 @@
+id: provider-fedapay
+entity_type: provider
+category: psp
+name: FedaPay
+provider: null
+region: West Africa
+countries:
+- Benin
+- Togo
+- Côte d'Ivoire
+- Niger
+- Senegal
+languages:
+- HTTP API
+integration_types:
+- API
+- SDK
+- Hosted Checkout
+- Plugin
+maintainer_type: official
+repo_url: https://github.com/fedapay
+docs_url: https://docs.fedapay.com/fr/introduction/fedapay
+website_url: https://fedapay.com/
+status: active
+api_access: sign-up
+licence: null
+last_verified: '2026-11-21'
+notes: Mobile money and card collections plus payouts to mobile money, with sandbox, Checkout.js and plugins. Methods by country are listed in the docs.
+tags:
+- fedapay
+- benin
+- togo
+- mobile-money
+- francophone

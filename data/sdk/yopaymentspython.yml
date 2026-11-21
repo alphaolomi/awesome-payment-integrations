@@ -1,0 +1,25 @@
+id: sdk-yopaymentspython
+entity_type: sdk
+category: sdk
+name: YoPaymentsPython
+provider: Yo! Payments
+region: East Africa
+countries:
+- Uganda
+languages:
+- Python
+integration_types:
+- SDK
+maintainer_type: unknown
+repo_url: https://github.com/YO-Uganda/YoPaymentsPython
+docs_url: null
+website_url: null
+status: active
+api_access: on-request
+licence: null
+last_verified: 2026-11-21
+notes: Yo! Payments library code in the YO-Uganda GitHub org; last updated Jan 2025. Ownership of the org was not cross-checked against Yo's own site.
+tags:
+- yo-payments
+- python
+- sdk

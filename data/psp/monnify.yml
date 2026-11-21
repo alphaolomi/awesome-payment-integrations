@@ -1,0 +1,29 @@
+id: provider-monnify
+entity_type: provider
+category: psp
+name: Monnify
+provider: null
+region: West Africa
+countries:
+- Nigeria
+languages:
+- HTTP API
+integration_types:
+- API
+- SDK
+- Hosted Checkout
+- Plugin
+maintainer_type: official
+repo_url: https://github.com/Monnify
+docs_url: https://developers.monnify.com/
+website_url: https://monnify.com
+status: active
+api_access: sign-up
+licence: null
+last_verified: '2026-11-21'
+notes: 'Nigerian payment gateway: bank transfer and card collections, reserved accounts, disbursements, wallets, BVN and account verification, and bill payments.'
+tags:
+- monnify
+- nigeria
+- virtual-accounts
+- disbursement

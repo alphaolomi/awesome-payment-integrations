@@ -1,0 +1,25 @@
+id: sdk-monnify-ios
+entity_type: sdk
+category: sdk
+name: Monnify iOS SDK
+provider: Monnify
+region: West Africa
+countries:
+- Nigeria
+languages:
+- Swift
+integration_types:
+- SDK
+maintainer_type: official
+repo_url: https://github.com/Monnify/IOS-SDk
+docs_url: https://developers.monnify.com/
+website_url: https://monnify.com
+status: active
+api_access: sign-up
+licence: null
+last_verified: '2026-11-21'
+notes: Official iOS SDK in the Monnify GitHub org.
+tags:
+- monnify
+- sdk
+- ios

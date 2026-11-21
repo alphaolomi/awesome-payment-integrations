@@ -1,0 +1,25 @@
+id: sdk-cinetpay-flutter
+entity_type: sdk
+category: sdk
+name: CinetPay Flutter SDK
+provider: CinetPay
+region: West Africa
+countries:
+- Côte d'Ivoire
+languages:
+- Dart
+integration_types:
+- SDK
+maintainer_type: official
+repo_url: https://github.com/cinetpay/cinetpay-flutter
+docs_url: https://github.com/cinetpay/cinetpay-flutter
+website_url: null
+status: active
+api_access: sign-up
+licence: null
+last_verified: '2026-11-21'
+notes: Official Flutter SDK in the cinetpay GitHub org.
+tags:
+- cinetpay
+- sdk
+- flutter

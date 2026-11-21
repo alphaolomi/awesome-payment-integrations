@@ -1,0 +1,28 @@
+id: provider-gepg
+entity_type: provider
+category: utility
+name: GePG (Government e-Payment Gateway)
+provider: Government of Tanzania (Ministry of Finance)
+region: East Africa
+countries:
+- Tanzania
+languages:
+- HTTP API
+integration_types:
+- API
+- Utility
+maintainer_type: official
+repo_url: null
+docs_url: https://openimis.atlassian.net/wiki/download/attachments/3051225101/Bill+And+++Payment++Information+++PostingAPIv4.0.pdf?version=1
+website_url: null
+status: active
+api_access: on-request
+licence: Government platform under the Ministry of Finance (not a BoT licence)
+last_verified: 2026-11-21
+notes: 'Government e-Payment Gateway spec (APIv4.0, July 2019, copy hosted by openIMIS): bill submission, control numbers, payment posting, reconciliation, signed XML messages and a card redirect flow. Integration needs a VPN and certificates from GePG and is aimed at public institutions, not open to anyone.'
+tags:
+- gepg
+- control-number
+- government
+- bill-payment
+- tanzania

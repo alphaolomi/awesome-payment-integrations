@@ -1,0 +1,27 @@
+id: provider-djamo
+entity_type: provider
+category: bank-api
+name: Djamo
+provider: null
+region: West Africa
+countries:
+- Côte d'Ivoire
+- Senegal
+languages:
+- HTTP API
+integration_types:
+- API
+maintainer_type: official
+repo_url: null
+docs_url: https://docs.djamo.com/
+website_url: https://www.djamo.com/en-sn/api
+status: active
+api_access: on-request
+licence: null
+last_verified: '2026-11-21'
+notes: Collection and Transfer APIs with signed webhooks, balance and sub-entities. Collections work only between Djamo accounts (mobile money listed as coming soon); staging credentials are issued on request.
+tags:
+- djamo
+- cote-divoire
+- senegal
+- collections

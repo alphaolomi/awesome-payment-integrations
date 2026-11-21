@@ -2,15 +2,15 @@ id: sdk-php-pesa
 entity_type: sdk
 category: sdk
 name: PHP Pesa
-provider: M-Pesa (Vodacom)
+provider: M-Pesa Open API (Vodacom)
 region: East Africa
 countries:
-  - Tanzania
+- Tanzania
 languages:
-  - PHP
+- PHP
 integration_types:
-  - API
-  - SDK
+- API
+- SDK
 maintainer_type: community
 repo_url: https://github.com/openpesa/php-pesa
 docs_url: https://github.com/openpesa/php-pesa
@@ -18,6 +18,6 @@ website_url: null
 status: active
 notes: Community PHP package for M-Pesa OpenAPI integrations.
 tags:
-  - mpesa
-  - php
-  - openapi
+- mpesa
+- php
+- openapi

@@ -1,0 +1,25 @@
+id: sdk-yopayments-php8x
+entity_type: sdk
+category: sdk
+name: YoPayments-PHP8x
+provider: Yo! Payments
+region: East Africa
+countries:
+- Uganda
+languages:
+- PHP
+integration_types:
+- SDK
+maintainer_type: unknown
+repo_url: https://github.com/YO-Uganda/YoPayments-PHP8x
+docs_url: null
+website_url: null
+status: active
+api_access: on-request
+licence: null
+last_verified: 2026-11-21
+notes: Yo! Payments library code in the YO-Uganda GitHub org; last updated Jul 2024. Ownership of the org was not cross-checked against Yo's own site.
+tags:
+- yo-payments
+- php
+- sdk

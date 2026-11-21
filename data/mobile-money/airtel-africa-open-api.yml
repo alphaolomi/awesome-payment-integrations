@@ -1,0 +1,40 @@
+id: provider-airtel-africa-open-api
+entity_type: provider
+category: mobile-money
+name: Airtel Money (Airtel Africa)
+provider: null
+region: Pan-African
+countries:
+- Nigeria
+- Niger
+- Chad
+- Gabon
+- Congo
+- DR Congo
+- Kenya
+- Uganda
+- Rwanda
+- Tanzania
+- Zambia
+- Malawi
+- Madagascar
+- Seychelles
+languages:
+- HTTP API
+integration_types:
+- API
+- Push USSD
+maintainer_type: unknown
+repo_url: null
+docs_url: https://developers.airtel.africa/documentation
+website_url: https://developers.airtel.africa/
+status: active
+api_access: sign-up
+licence: null
+last_verified: 2026-11-21
+notes: Airtel Money collection and disbursement APIs on a single developer portal, where an app can be added for one or several countries. Portal is client-rendered; coverage is described in press as Airtel's 14 markets. Countries are Airtel Africa's markets; Open API availability varies by country.
+tags:
+- airtel
+- airtel-money
+- collections
+- disbursements

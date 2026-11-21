@@ -1,0 +1,28 @@
+id: sdk-intasend-python
+entity_type: sdk
+category: sdk
+name: intasend-python
+provider: IntaSend
+region: East Africa
+countries:
+- Kenya
+- Uganda
+- Tanzania
+- Rwanda
+languages:
+- Python
+integration_types:
+- SDK
+maintainer_type: official
+repo_url: https://github.com/IntaSend/intasend-python
+docs_url: https://developers.intasend.com/
+website_url: null
+status: active
+api_access: sign-up
+licence: null
+last_verified: 2026-11-21
+notes: IntaSend's Python SDK; repo last updated May 2025 per the org listing.
+tags:
+- intasend
+- python
+- sdk

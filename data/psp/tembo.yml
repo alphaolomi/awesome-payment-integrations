@@ -1,0 +1,30 @@
+id: provider-tembo
+entity_type: provider
+category: psp
+name: Tembo
+provider: TemboPlus Company Limited
+region: East Africa
+countries:
+- Tanzania
+- Kenya
+languages:
+- HTTP API
+integration_types:
+- API
+- Push USSD
+maintainer_type: official
+repo_url: null
+docs_url: https://tembo.gitbook.io/tembo/introduction
+website_url: https://temboplus.com
+status: active
+api_access: on-request
+licence: Bank of Tanzania, non-bank payment system provider (listed as TemboPlus Company Limited)
+last_verified: 2026-11-21
+notes: Merchant bank collection accounts, mobile money USSD-push collection, payouts to banks and wallets (incl. bill payments and remittance) and wallet management, with webhooks. Credentials are issued on onboarding via sales; no sandbox documented.
+tags:
+- tembo
+- temboplus
+- collection
+- payout
+- webhooks
+- tanzania

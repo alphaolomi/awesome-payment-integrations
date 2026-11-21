@@ -1,0 +1,30 @@
+id: provider-relworx
+entity_type: provider
+category: mobile-money
+name: Relworx
+provider: Relworx
+region: East Africa
+countries:
+- Uganda
+- Kenya
+- Tanzania
+- Rwanda
+- DR Congo
+languages:
+- HTTP API
+integration_types:
+- API
+maintainer_type: official
+repo_url: null
+docs_url: https://payments.relworx.com/docs/
+website_url: null
+status: active
+api_access: sign-up
+licence: null
+last_verified: 2026-11-21
+notes: Mobile money collection and payout API across Uganda, Kenya, Tanzania, Rwanda and DRC, plus Visa in Uganda. A sandbox was not mentioned in the docs I could read.
+tags:
+- relworx
+- mobile-money
+- uganda
+- payouts

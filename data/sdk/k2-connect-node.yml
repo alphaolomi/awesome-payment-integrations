@@ -1,0 +1,25 @@
+id: sdk-k2-connect-node
+entity_type: sdk
+category: sdk
+name: k2-connect-node
+provider: Kopo Kopo
+region: East Africa
+countries:
+- Kenya
+languages:
+- JavaScript
+integration_types:
+- SDK
+maintainer_type: official
+repo_url: https://github.com/kopokopo/k2-connect-node
+docs_url: https://api-docs.kopokopo.com/
+website_url: null
+status: active
+api_access: sign-up
+licence: null
+last_verified: 2026-11-21
+notes: Kopo Kopo's JavaScript SDK; repo last updated Oct 2026.
+tags:
+- kopokopo
+- javascript
+- sdk

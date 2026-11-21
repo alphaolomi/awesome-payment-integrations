@@ -1,0 +1,27 @@
+id: provider-yo-payments
+entity_type: provider
+category: mobile-money
+name: Yo! Payments
+provider: Yo! Uganda Limited
+region: East Africa
+countries:
+- Uganda
+languages:
+- HTTP API
+integration_types:
+- API
+- SDK
+maintainer_type: official
+repo_url: null
+docs_url: http://paymentsweb.yo.co.ug/developers-api/
+website_url: http://paymentsweb.yo.co.ug/
+status: active
+api_access: on-request
+licence: null
+last_verified: 2026-11-21
+notes: Ugandan mobile money gateway. The provider says its API is documented in 80+ pages obtained by emailing payments@yo.co.ug, and a free sandbox is offered.
+tags:
+- yo-payments
+- uganda
+- mobile-money
+- sandbox

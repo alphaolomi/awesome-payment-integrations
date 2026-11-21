@@ -1,0 +1,25 @@
+id: sdk-seerbit-reactjs
+entity_type: sdk
+category: sdk
+name: SeerBit React SDK
+provider: SeerBit
+region: West Africa
+countries:
+- Nigeria
+languages:
+- JavaScript
+integration_types:
+- SDK
+maintainer_type: official
+repo_url: https://github.com/seerbit/seerbit-reactjs
+docs_url: https://doc.seerbit.com/sdks/overview
+website_url: https://www.seerbit.com/
+status: active
+api_access: sign-up
+licence: null
+last_verified: '2026-11-21'
+notes: Official React library from SeerBit's SDK overview.
+tags:
+- seerbit
+- sdk
+- reactjs

@@ -1,0 +1,28 @@
+id: sdk-intasend-php
+entity_type: sdk
+category: sdk
+name: intasend-php
+provider: IntaSend
+region: East Africa
+countries:
+- Kenya
+- Uganda
+- Tanzania
+- Rwanda
+languages:
+- PHP
+integration_types:
+- SDK
+maintainer_type: official
+repo_url: https://github.com/IntaSend/intasend-php
+docs_url: https://developers.intasend.com/
+website_url: null
+status: active
+api_access: sign-up
+licence: null
+last_verified: 2026-11-21
+notes: IntaSend's PHP SDK; repo last updated Oct 2024 per the org listing.
+tags:
+- intasend
+- php
+- sdk

@@ -1,0 +1,25 @@
+id: sdk-cinetpay-python
+entity_type: sdk
+category: sdk
+name: CinetPay Python SDK
+provider: CinetPay
+region: West Africa
+countries:
+- Côte d'Ivoire
+languages:
+- Python
+integration_types:
+- SDK
+maintainer_type: official
+repo_url: https://github.com/cinetpay/cinetpay-python
+docs_url: https://github.com/cinetpay/cinetpay-python
+website_url: null
+status: active
+api_access: sign-up
+licence: null
+last_verified: '2026-11-21'
+notes: Official Python SDK in the cinetpay GitHub org.
+tags:
+- cinetpay
+- sdk
+- python

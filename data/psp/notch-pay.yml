@@ -1,0 +1,28 @@
+id: provider-notch-pay
+entity_type: provider
+category: psp
+name: Notch Pay
+provider: Notch Pay
+region: Central Africa
+countries:
+- Cameroon
+languages:
+- HTTP API
+integration_types:
+- API
+- SDK
+- Hosted Checkout
+maintainer_type: official
+repo_url: null
+docs_url: https://developer.notchpay.co/
+website_url: https://notchpay.co
+status: active
+api_access: sign-up
+licence: null
+last_verified: 2026-11-21
+notes: REST API for MTN MoMo and Orange Money (XAF) collections and transfers, with test mode. Docs list JavaScript, PHP, Python and mobile SDKs; the GitHub org was archived on 10 Jun 2026 and holds no current SDKs.
+tags:
+- notchpay
+- cameroon
+- xaf
+- transfers

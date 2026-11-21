@@ -1,23 +1,25 @@
 id: sdk-selcom-php
 entity_type: sdk
 category: sdk
-name: selcom-php
+name: Selcom API Gateway client (PHP)
 provider: Selcom
 region: East Africa
 countries:
-  - Tanzania
+- Tanzania
 languages:
-  - PHP
+- PHP
 integration_types:
-  - API
-  - SDK
-maintainer_type: community
-repo_url: https://github.com/selcom-developers/selcom-php
-docs_url: https://selcom-developers.github.io/clients/php
-website_url: https://selcom-developers.github.io/
+- SDK
+maintainer_type: official
+repo_url: https://github.com/selcompaytechltd/selcom-apigw-client-php
+docs_url: https://developers.selcommobile.com
+website_url: https://www.selcom.net
 status: active
-notes: Community framework-agnostic PHP client for the Selcom API, built from the shared selcom-spec.
+api_access: on-request
+licence: null
+last_verified: 2026-11-21
+notes: Official PHP client for the Selcom API gateway (request signing and calls), listed on the Selcom developer page. Last commit 2023.
 tags:
-  - selcom
-  - php
-  - tanzania
+- selcom
+- php
+- sdk

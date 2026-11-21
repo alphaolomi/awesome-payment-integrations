@@ -2,14 +2,14 @@ id: sdk-whmcs-tigopesa
 entity_type: sdk
 category: plugin
 name: WHMCS Tigo Pesa
-provider: Mixx by Yas
+provider: Mixx by Yas (formerly Tigo Pesa)
 region: East Africa
 countries:
-  - Tanzania
+- Tanzania
 languages:
-  - PHP
+- PHP
 integration_types:
-  - Plugin
+- Plugin
 maintainer_type: community
 repo_url: https://github.com/devmedtz/whmcs-tigopesa
 docs_url: https://github.com/devmedtz/whmcs-tigopesa
@@ -17,6 +17,6 @@ website_url: null
 status: active
 notes: WHMCS plugin that enables Tigo Pesa payments.
 tags:
-  - tigopesa
-  - whmcs
-  - plugin
+- tigopesa
+- whmcs
+- plugin

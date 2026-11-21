@@ -1,0 +1,28 @@
+id: provider-theteller
+entity_type: provider
+category: psp
+name: theTeller (PaySwitch)
+provider: null
+region: West Africa
+countries:
+- Ghana
+languages:
+- HTTP API
+integration_types:
+- API
+- Hosted Checkout
+maintainer_type: official
+repo_url: null
+docs_url: https://theteller.net/documentation
+website_url: https://theteller.net/
+status: active
+api_access: sign-up
+licence: null
+last_verified: '2026-11-21'
+notes: PaySwitch gateway API for card and mobile money acceptance, with a checkout script, status checks and transfers. Test keys come with a merchant sign-up.
+tags:
+- theteller
+- payswitch
+- ghana
+- cards
+- mobile-money

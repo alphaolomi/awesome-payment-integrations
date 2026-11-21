@@ -1,0 +1,27 @@
+id: provider-safaricom-daraja
+entity_type: provider
+category: mobile-money
+name: Safaricom Daraja (M-Pesa Kenya)
+provider: Safaricom
+region: East Africa
+countries:
+- Kenya
+languages:
+- HTTP API
+integration_types:
+- API
+- Push USSD
+maintainer_type: official
+repo_url: null
+docs_url: https://developer.safaricom.co.ke
+website_url: https://developer.safaricom.co.ke
+status: active
+api_access: sign-up
+licence: null
+last_verified: 2026-11-21
+notes: Daraja 3.0 is Safaricom's developer portal for M-Pesa and Safaricom APIs. Only the portal landing page was confirmed; individual API pages (STK Push, C2B, B2C) were not readable.
+tags:
+- mpesa
+- daraja
+- stk-push
+- kenya

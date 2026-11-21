@@ -1,0 +1,25 @@
+id: sdk-chargily-pay-php
+entity_type: sdk
+category: sdk
+name: Chargily Pay PHP SDK
+provider: Chargily Pay
+region: North Africa
+countries:
+- Algeria
+languages:
+- PHP
+integration_types:
+- SDK
+maintainer_type: official
+repo_url: https://github.com/Chargily/chargily-pay-php
+docs_url: https://dev.chargily.com/pay-v2/introduction
+website_url: https://chargily.com/
+status: active
+api_access: sign-up
+licence: null
+last_verified: 2026-11-21
+notes: Official PHP client for the Chargily Pay v2 API.
+tags:
+- chargily
+- algeria
+- php

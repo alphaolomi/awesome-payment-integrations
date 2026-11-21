@@ -1,0 +1,30 @@
+id: provider-remita
+entity_type: provider
+category: psp
+name: Remita
+provider: null
+region: West Africa
+countries:
+- Nigeria
+languages:
+- HTTP API
+integration_types:
+- API
+- SDK
+- Hosted Checkout
+- Plugin
+maintainer_type: official
+repo_url: https://github.com/RemitaNet
+docs_url: https://api.remita.net/
+website_url: https://remita.net/developers
+status: active
+api_access: on-request
+licence: null
+last_verified: '2026-11-21'
+notes: 'SystemSpecs payments platform: online payments, collections (RRR), funds transfer, vending, verification, e-invoice and pension remittance APIs, with WooCommerce and other plugins.'
+tags:
+- remita
+- nigeria
+- rrr
+- government
+- collections

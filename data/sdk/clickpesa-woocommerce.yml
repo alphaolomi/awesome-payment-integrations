@@ -1,0 +1,25 @@
+id: sdk-clickpesa-woocommerce
+entity_type: sdk
+category: plugin
+name: ClickPesa WooCommerce plugin
+provider: ClickPesa
+region: East Africa
+countries:
+- Tanzania
+languages:
+- PHP
+integration_types:
+- Plugin
+maintainer_type: official
+repo_url: https://github.com/ClickPesa/ClickPesa-WooCommerce-Plugin-Release
+docs_url: https://docs.clickpesa.com
+website_url: https://clickpesa.com
+status: active
+api_access: sign-up
+licence: null
+last_verified: 2026-11-21
+notes: Official WooCommerce plugin release repo from ClickPesa's GitHub org; ClickPesa docs list WooCommerce as a supported plugin. Last commit Feb 2026.
+tags:
+- clickpesa
+- woocommerce
+- plugin

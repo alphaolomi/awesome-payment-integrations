@@ -1,0 +1,29 @@
+id: sdk-paystack-node
+entity_type: sdk
+category: sdk
+name: Paystack Node SDK
+provider: Paystack
+region: Pan-African
+countries:
+- Nigeria
+- Ghana
+- South Africa
+- Kenya
+- Côte d'Ivoire
+languages:
+- TypeScript
+integration_types:
+- SDK
+maintainer_type: official
+repo_url: https://github.com/PaystackOSS/paystack-node
+docs_url: https://paystack.com/docs/developer-tools/
+website_url: https://paystack.com
+status: active
+api_access: sign-up
+licence: null
+last_verified: '2026-11-21'
+notes: Official Node/TypeScript client (@paystack/paystack-sdk).
+tags:
+- paystack
+- sdk
+- typescript

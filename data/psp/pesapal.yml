@@ -1,0 +1,34 @@
+id: provider-pesapal
+entity_type: provider
+category: psp
+name: Pesapal
+provider: Pesapal
+region: East Africa
+countries:
+- Kenya
+- Uganda
+- Tanzania
+- Rwanda
+- Malawi
+- Zambia
+- Zimbabwe
+languages:
+- HTTP API
+integration_types:
+- API
+- Hosted Checkout
+maintainer_type: official
+repo_url: null
+docs_url: https://developer.pesapal.com/
+website_url: https://www.pesapal.com/
+status: active
+api_access: sign-up
+licence: Central Bank of Kenya (stated as regulated on provider site; licence type not stated)
+last_verified: 2026-11-21
+notes: 'Payment gateway with the JSON API 3.0 (XML API 2.0 is deprecated): order submission, IPN, status, refunds, recurring. Sandbox at cybqa.pesapal.com/pesapalv3, live at pay.pesapal.com/v3.'
+tags:
+- pesapal
+- api-3.0
+- m-pesa
+- cards
+- ipn

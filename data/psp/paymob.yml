@@ -1,0 +1,29 @@
+id: provider-paymob
+entity_type: provider
+category: psp
+name: Paymob
+provider: null
+region: North Africa
+countries:
+- Egypt
+languages:
+- HTTP API
+integration_types:
+- API
+- Hosted Checkout
+- SDK
+- Plugin
+maintainer_type: unknown
+repo_url: null
+docs_url: https://developers.paymob.com/paymob-docs
+website_url: https://paymob.com/
+status: active
+api_access: sign-up
+licence: null
+last_verified: 2026-11-21
+notes: Egypt PSP with Intention API, Unified Checkout, Pixel embedded checkout, mobile SDKs, wallets and BNPL. Same docs also cover Oman, Saudi Arabia and UAE.
+tags:
+- paymob
+- egypt
+- intention-api
+- wallets

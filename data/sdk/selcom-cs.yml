@@ -1,0 +1,25 @@
+id: sdk-selcom-cs
+entity_type: sdk
+category: sdk
+name: Selcom API Gateway client (C#)
+provider: Selcom
+region: East Africa
+countries:
+- Tanzania
+languages:
+- C#
+integration_types:
+- SDK
+maintainer_type: official
+repo_url: https://github.com/selcompaytechltd/selcom-apigw-client-cs
+docs_url: https://developers.selcommobile.com
+website_url: https://www.selcom.net
+status: active
+api_access: on-request
+licence: null
+last_verified: 2026-11-21
+notes: Official C# client for the Selcom API gateway (request signing and calls), listed on the Selcom developer page. Last commit 2023.
+tags:
+- selcom
+- cs
+- sdk

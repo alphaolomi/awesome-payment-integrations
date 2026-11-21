@@ -1,0 +1,28 @@
+id: provider-bictorys
+entity_type: provider
+category: psp
+name: Bictorys
+provider: null
+region: West Africa
+countries:
+- Senegal
+languages:
+- HTTP API
+integration_types:
+- API
+- Hosted Checkout
+- Plugin
+maintainer_type: official
+repo_url: null
+docs_url: https://docs.bictorys.com/
+website_url: https://bictorys.com/
+status: active
+api_access: sign-up
+licence: null
+last_verified: '2026-11-21'
+notes: 'Omnichannel aggregator for mobile money and cards in West Africa: checkout, iframe and direct API, payouts, refunds, payment links and subscriptions, with a documented test environment.'
+tags:
+- bictorys
+- senegal
+- mobile-money
+- francophone

@@ -1,0 +1,29 @@
+id: provider-seerbit
+entity_type: provider
+category: psp
+name: SeerBit
+provider: null
+region: West Africa
+countries:
+- Nigeria
+languages:
+- HTTP API
+integration_types:
+- API
+- SDK
+- Hosted Checkout
+- Plugin
+maintainer_type: official
+repo_url: https://github.com/seerbit
+docs_url: https://doc.seerbit.com/
+website_url: https://www.seerbit.com/
+status: active
+api_access: sign-up
+licence: null
+last_verified: '2026-11-21'
+notes: Online and in-person payments (card, transfer, USSD, mobile money), terminal API, sub-account splits and payouts, with many official SDKs and ERP integrations.
+tags:
+- seerbit
+- nigeria
+- pos
+- splits
