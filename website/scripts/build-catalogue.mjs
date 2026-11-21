@@ -90,7 +90,10 @@ if (process.argv.includes('--readme')) {
   }
   if (orphans.length) {
     lines.push('## Tools', '');
-    for (const s of orphans) lines.push(`- [${s.name}](${s.repo_url || s.docs_url}) (\`${s.maintainer_type}\`)`);
+    for (const s of orphans) {
+      const kind = s.category === 'plugin' ? 'Plugin' : s.category === 'utility' ? 'Tool' : 'SDK';
+      lines.push(`- **${s.name}** (${s.countries.join(', ')}). ${kind} (${s.languages.join(', ')}) - [${s.name}](${s.repo_url || s.docs_url}) (\`${s.maintainer_type}\`)`);
+    }
     lines.push('');
   }
   const readmePath = path.join(root, 'README.md');

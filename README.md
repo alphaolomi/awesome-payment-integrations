@@ -175,6 +175,10 @@ Malipo (Swahili for "payments") is a curated index of African payment providers 
   - SDK (Python) - [PaystackOSS/paystack-python](https://github.com/PaystackOSS/paystack-python) (`official`)
 - **Tingg (Cellulant)** (Kenya, Tanzania, Nigeria, Ghana, Uganda). API access: on request. [Docs](https://docs.tingg.africa) · [Website](https://tingg.africa)
 
+## Tools
+
+- **Sanwo** (Nigeria, Ghana, South Africa, Kenya). SDK (TypeScript, JavaScript, Dart, Swift, Kotlin) - [Sanwo](https://github.com/Sanwohq) (`community`)
+
 <!-- catalogue:end -->
 
 ## Contributing

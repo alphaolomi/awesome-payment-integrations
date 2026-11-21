@@ -1,0 +1,37 @@
+id: sdk-sanwo
+entity_type: sdk
+category: sdk
+name: Sanwo
+provider: null
+region: Pan-African
+countries:
+- Nigeria
+- Ghana
+- South Africa
+- Kenya
+languages:
+- TypeScript
+- JavaScript
+- Dart
+- Swift
+- Kotlin
+integration_types:
+- SDK
+- Hosted Checkout
+- Plugin
+maintainer_type: community
+repo_url: https://github.com/Sanwohq
+docs_url: https://docs.sanwo.dev
+website_url: https://sanwo.dev
+status: active
+last_verified: '2026-11-21'
+notes: Open-source multi-provider payment SDK with one interface over Paystack, Flutterwave, Monnify, Interswitch and Razorpay, and packages for web, mobile and no-code platforms.
+tags:
+- multi-provider
+- paystack
+- flutterwave
+- monnify
+- interswitch
+- react
+- flutter
+- react-native
