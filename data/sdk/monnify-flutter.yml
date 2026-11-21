@@ -1,0 +1,25 @@
+id: sdk-monnify-flutter
+entity_type: sdk
+category: sdk
+name: Monnify Flutter SDK
+provider: Monnify
+region: West Africa
+countries:
+- Nigeria
+languages:
+- Dart
+integration_types:
+- SDK
+maintainer_type: official
+repo_url: https://github.com/Monnify/FlutterSDK
+docs_url: https://developers.monnify.com/
+website_url: https://monnify.com
+status: active
+api_access: sign-up
+licence: null
+last_verified: '2026-11-21'
+notes: Official Flutter SDK in the Monnify GitHub org.
+tags:
+- monnify
+- sdk
+- flutter

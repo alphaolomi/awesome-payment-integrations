@@ -1,0 +1,29 @@
+id: provider-nmb-bank-merchant
+entity_type: provider
+category: bank-api
+name: NMB Bank
+provider: NMB Bank PLC
+region: East Africa
+countries:
+- Tanzania
+languages:
+- HTTP API
+integration_types:
+- API
+maintainer_type: official
+repo_url: null
+docs_url: https://obp-portal-sandbox.nmbbank.co.tz/
+website_url: https://obp-portal-sandbox.nmbbank.co.tz/
+status: active
+api_access: sign-up
+licence: null
+last_verified: 2026-11-21
+notes: Open Bank Project sandbox and developer portal (hosted by TESOBE) with API Explorer, sign-up, authentication and consent docs, and simulated customers. Sandbox only; live access is by agreement with NMB.
+tags:
+- nmb
+- open-bank-project
+- obp
+- sandbox
+- bank
+- bank-api
+- tanzania

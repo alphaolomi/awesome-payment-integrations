@@ -1,0 +1,25 @@
+id: sdk-monnify-node
+entity_type: sdk
+category: sdk
+name: Monnify Node.js SDK
+provider: Monnify
+region: West Africa
+countries:
+- Nigeria
+languages:
+- JavaScript
+integration_types:
+- SDK
+maintainer_type: official
+repo_url: https://github.com/Monnify/Monnify-Nodejs-lib
+docs_url: https://developers.monnify.com/
+website_url: https://monnify.com
+status: active
+api_access: sign-up
+licence: null
+last_verified: '2026-11-21'
+notes: Official Node.js SDK in the Monnify GitHub org.
+tags:
+- monnify
+- sdk
+- node

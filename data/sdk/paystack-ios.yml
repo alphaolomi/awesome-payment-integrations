@@ -1,0 +1,29 @@
+id: sdk-paystack-ios
+entity_type: sdk
+category: sdk
+name: Paystack iOS SDK
+provider: Paystack
+region: Pan-African
+countries:
+- Nigeria
+- Ghana
+- South Africa
+- Kenya
+- Côte d'Ivoire
+languages:
+- Swift
+integration_types:
+- SDK
+maintainer_type: official
+repo_url: https://github.com/PaystackHQ/paystack-sdk-ios
+docs_url: https://paystack.com/docs/developer-tools/ios-sdk/
+website_url: https://paystack.com
+status: active
+api_access: sign-up
+licence: null
+last_verified: '2026-11-21'
+notes: Official iOS SDK for in-app payments.
+tags:
+- paystack
+- sdk
+- ios

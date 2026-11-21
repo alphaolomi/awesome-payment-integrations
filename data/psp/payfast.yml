@@ -1,0 +1,28 @@
+id: provider-payfast
+entity_type: provider
+category: psp
+name: Payfast
+provider: null
+region: Southern Africa
+countries:
+- South Africa
+languages:
+- HTTP API
+integration_types:
+- API
+- Hosted Checkout
+- Plugin
+maintainer_type: official
+repo_url: https://github.com/PayFast
+docs_url: https://developers.payfast.co.za/docs
+website_url: https://payfast.io/
+status: active
+api_access: sign-up
+licence: null
+last_verified: 2026-11-21
+notes: South African payment gateway with developer docs, sandbox and many shopping-cart plugins.
+tags:
+- payfast
+- south-africa
+- eft
+- cards

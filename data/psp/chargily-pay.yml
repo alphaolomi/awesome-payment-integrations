@@ -1,0 +1,29 @@
+id: provider-chargily-pay
+entity_type: provider
+category: psp
+name: Chargily Pay
+provider: null
+region: North Africa
+countries:
+- Algeria
+languages:
+- HTTP API
+integration_types:
+- API
+- Hosted Checkout
+- Plugin
+- SDK
+maintainer_type: official
+repo_url: https://github.com/Chargily
+docs_url: https://dev.chargily.com/pay-v2/introduction
+website_url: https://chargily.com/
+status: active
+api_access: sign-up
+licence: null
+last_verified: 2026-11-21
+notes: Algerian gateway for EDAHABIA (Algerie Poste) and CIB (SATIM) cards, with test/live modes, webhooks and official SDKs.
+tags:
+- chargily
+- algeria
+- edahabia
+- cib

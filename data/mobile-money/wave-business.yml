@@ -1,0 +1,29 @@
+id: provider-wave-business
+entity_type: provider
+category: mobile-money
+name: Wave
+provider: null
+region: West Africa
+countries:
+- Senegal
+- Côte d'Ivoire
+languages:
+- HTTP API
+integration_types:
+- API
+- Hosted Checkout
+maintainer_type: official
+repo_url: null
+docs_url: https://docs.wave.com/business
+website_url: https://www.wave.com/en/business/index.html
+status: active
+api_access: on-request
+licence: null
+last_verified: '2026-11-21'
+notes: Checkout API (hosted sessions, refunds), Payout API, and balance and reconciliation APIs with Bearer-key auth and optional request signing. Keys come from the Wave Business portal; docs show XOF only and no sandbox.
+tags:
+- wave
+- senegal
+- xof
+- checkout
+- payouts

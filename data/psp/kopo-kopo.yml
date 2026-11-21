@@ -1,0 +1,29 @@
+id: provider-kopo-kopo
+entity_type: provider
+category: psp
+name: Kopo Kopo
+provider: Kopo Kopo
+region: East Africa
+countries:
+- Kenya
+languages:
+- HTTP API
+integration_types:
+- API
+- SDK
+- Push USSD
+maintainer_type: official
+repo_url: https://github.com/kopokopo
+docs_url: https://api-docs.kopokopo.com/
+website_url: null
+status: active
+api_access: sign-up
+licence: null
+last_verified: 2026-11-21
+notes: OAuth2 API for M-PESA STK Push, send money to wallets and banks, webhooks and payment links. Sandbox at sandbox.kopokopo.com.
+tags:
+- kopokopo
+- mpesa
+- stk-push
+- webhooks
+- kenya

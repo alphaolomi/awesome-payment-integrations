@@ -1,23 +1,214 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
-.heroBanner {
-  padding: 4rem 0;
-  text-align: center;
+.hero {
   position: relative;
+  padding: 5.5rem 0 6.5rem;
+  background:
+    radial-gradient(60rem 30rem at 85% -10%, color-mix(in srgb, var(--mp-ochre) 22%, transparent), transparent 70%),
+    radial-gradient(40rem 26rem at -10% 110%, color-mix(in srgb, var(--mp-terracotta) 14%, transparent), transparent 70%),
+    var(--mp-bg);
   overflow: hidden;
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
+.eyebrow {
+  margin: 0 0 1rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--mp-terracotta-ink);
 }
 
-.buttons {
+.title {
+  max-width: 16ch;
+  margin: 0;
+  font-size: clamp(2.6rem, 6vw, 4.6rem);
+  line-height: 1.02;
+  font-weight: 700;
+}
+
+.title span {
+  color: var(--mp-terracotta);
+}
+
+.lead {
+  max-width: 58ch;
+  margin: 1.5rem 0 0;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: var(--mp-ink-soft);
+}
+
+.actions {
   display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 2.25rem;
+}
+
+.ghost {
+  border: 1px solid var(--mp-rule);
+  background: var(--mp-surface);
+  color: var(--mp-ink);
+}
+
+.ghost:hover {
+  border-color: var(--mp-terracotta);
+  color: var(--mp-terracotta-ink);
+}
+
+/* A woven band in terracotta, ochre, sand and charcoal, like a kanga border */
+.weave {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 14px;
+  background: repeating-linear-gradient(
+    90deg,
+    var(--mp-terracotta) 0 28px,
+    var(--mp-ochre) 28px 40px,
+    var(--mp-sand) 40px 52px,
+    var(--mp-ink) 52px 58px
+  );
+  opacity: 0.9;
+}
+
+.section {
+  padding: 4.5rem 0;
+}
+
+.tinted {
+  background: var(--mp-surface);
+  border-top: 1px solid var(--mp-rule);
+  border-bottom: 1px solid var(--mp-rule);
+}
+
+.h2 {
+  margin: 0 0 0.5rem;
+  font-size: clamp(1.7rem, 3vw, 2.3rem);
+}
+
+.sectionLead {
+  max-width: 62ch;
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: var(--mp-ink-soft);
+}
+
+.regionGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+  gap: 1rem;
+  margin-top: 1.75rem;
+}
+
+.regionCard {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1.35rem 1.4rem 1.25rem;
+  border: 1px solid var(--mp-rule);
+  border-radius: 14px;
+  background: var(--mp-surface);
+  color: var(--mp-ink);
+  transition: border-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.regionCard:hover {
+  text-decoration: none;
+  color: var(--mp-ink);
+  border-color: var(--mp-terracotta);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px -18px rgba(31, 26, 23, 0.45);
+}
+
+.regionName {
+  font-family: var(--ifm-heading-font-family);
+  font-size: 1.35rem;
+  font-weight: 650;
+}
+
+.regionLine {
+  color: var(--mp-ink-soft);
+  line-height: 1.5;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: 0.4rem;
+}
+
+.chip {
+  padding: 0.05rem 0.5rem;
+  border-radius: 6px;
+  background: var(--mp-sand);
+  font-size: 0.8rem;
+}
+
+.more {
+  padding: 0.05rem 0.25rem;
+  font-size: 0.8rem;
+  color: var(--mp-ink-soft);
+}
+
+.accessGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 1rem;
+  margin-top: 1.75rem;
+}
+
+.accessCard {
+  padding: 1.25rem 1.3rem;
+  border: 1px solid var(--mp-rule);
+  border-radius: 14px;
+  background: var(--mp-bg);
+}
+
+.accessCard p {
+  margin: 0.75rem 0 0;
+  line-height: 1.55;
+  color: var(--mp-ink-soft);
+}
+
+.contribute {
+  display: grid;
+  grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
+  gap: 2rem;
   align-items: center;
-  justify-content: center;
+}
+
+.contributeBox {
+  padding: 1.5rem;
+  border-radius: 14px;
+  background: var(--mp-ink);
+  color: var(--mp-bg);
+}
+
+.contributeBox p {
+  margin: 0 0 1rem;
+  line-height: 1.6;
+}
+
+.contributeBox code {
+  background: rgba(255, 255, 255, 0.12);
+  border: 0;
+  color: inherit;
+}
+
+[data-theme='dark'] .contributeBox {
+  background: var(--mp-sand);
+  color: var(--mp-ink);
+}
+
+@media (max-width: 860px) {
+  .hero {
+    padding: 3.5rem 0 4.5rem;
+  }
+
+  .contribute {
+    grid-template-columns: 1fr;
+  }
 }

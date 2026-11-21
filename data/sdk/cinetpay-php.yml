@@ -1,0 +1,25 @@
+id: sdk-cinetpay-php
+entity_type: sdk
+category: sdk
+name: CinetPay PHP SDK
+provider: CinetPay
+region: West Africa
+countries:
+- Côte d'Ivoire
+languages:
+- PHP
+integration_types:
+- SDK
+maintainer_type: official
+repo_url: https://github.com/cinetpay/cinetpay-php-sdk
+docs_url: https://github.com/cinetpay/cinetpay-php-sdk
+website_url: null
+status: active
+api_access: sign-up
+licence: null
+last_verified: '2026-11-21'
+notes: Official PHP SDK in the cinetpay GitHub org.
+tags:
+- cinetpay
+- sdk
+- php

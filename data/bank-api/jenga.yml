@@ -1,0 +1,34 @@
+id: provider-jenga
+entity_type: provider
+category: bank-api
+name: Jenga (Equity Bank)
+provider: Jenga
+region: East Africa
+countries:
+- Kenya
+- Uganda
+- Tanzania
+- Rwanda
+- DR Congo
+- South Sudan
+- Ethiopia
+languages:
+- HTTP API
+integration_types:
+- API
+- Hosted Checkout
+maintainer_type: official
+repo_url: null
+docs_url: https://developer.jengahq.io/
+website_url: https://developer.jengahq.io/
+status: active
+api_access: sign-up
+licence: null
+last_verified: 2026-11-21
+notes: 'Financial APIs: payment gateway (card, mobile money, bank), send money, balances and statements, airtime, forex and KYC. Free sandbox via the JengaHQ portal.'
+tags:
+- jenga
+- bank
+- kyc
+- airtime
+- payouts

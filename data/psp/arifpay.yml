@@ -1,0 +1,28 @@
+id: provider-arifpay
+entity_type: provider
+category: psp
+name: ArifPay
+provider: ArifPay
+region: East Africa
+countries:
+- Ethiopia
+languages:
+- HTTP API
+integration_types:
+- API
+- SDK
+- Hosted Checkout
+maintainer_type: official
+repo_url: null
+docs_url: https://developer.arifpay.net/
+website_url: https://arifpay.net
+status: active
+api_access: sign-up
+licence: null
+last_verified: 2026-11-21
+notes: Ethiopian gateway with checkout, direct payment and disbursement APIs, a sandbox and a Postman collection. Its GitHub SDKs were last updated in 2022 to 2023, so none are listed.
+tags:
+- arifpay
+- ethiopia
+- disbursement
+- sandbox

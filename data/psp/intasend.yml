@@ -1,0 +1,33 @@
+id: provider-intasend
+entity_type: provider
+category: psp
+name: IntaSend
+provider: IntaSend
+region: East Africa
+countries:
+- Kenya
+- Uganda
+- Tanzania
+- Rwanda
+languages:
+- HTTP API
+integration_types:
+- API
+- SDK
+- Hosted Checkout
+- Push USSD
+maintainer_type: official
+repo_url: https://github.com/IntaSend
+docs_url: https://developers.intasend.com/
+website_url: https://developers.intasend.com/
+status: active
+api_access: sign-up
+licence: null
+last_verified: 2026-11-21
+notes: Collections (M-Pesa STK Push, mobile money, cards), payouts, hosted checkout, split payments, wallets and webhooks. Sandbox at sandbox.intasend.com.
+tags:
+- intasend
+- stk-push
+- payouts
+- checkout
+- kenya

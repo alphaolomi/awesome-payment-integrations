@@ -1,0 +1,29 @@
+id: provider-expresspay-ghana
+entity_type: provider
+category: psp
+name: expressPay
+provider: null
+region: West Africa
+countries:
+- Ghana
+languages:
+- HTTP API
+integration_types:
+- API
+- Hosted Checkout
+- Plugin
+maintainer_type: official
+repo_url: https://github.com/expresspaygh
+docs_url: https://developers.expresspaygh.com/
+website_url: https://expresspaygh.com/
+status: active
+api_access: sign-up
+licence: null
+last_verified: '2026-11-21'
+notes: Ghana payment and bill-payment platform with Merchant, Merchant Direct, Tokenization and Invoice APIs.
+tags:
+- expresspay
+- ghana
+- bills
+- cards
+- mobile-money

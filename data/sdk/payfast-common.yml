@@ -1,0 +1,25 @@
+id: sdk-payfast-common
+entity_type: sdk
+category: sdk
+name: Payfast Common PHP library
+provider: Payfast
+region: Southern Africa
+countries:
+- South Africa
+languages:
+- PHP
+integration_types:
+- SDK
+maintainer_type: official
+repo_url: https://github.com/PayFast/payfast-common
+docs_url: https://developers.payfast.co.za/docs
+website_url: https://payfast.io/
+status: active
+api_access: sign-up
+licence: null
+last_verified: 2026-11-21
+notes: Official shared PHP library used by Payfast's cart plugins; the org also hosts WooCommerce, OpenCart, WHMCS and other gateway plugins.
+tags:
+- payfast
+- php
+- south-africa

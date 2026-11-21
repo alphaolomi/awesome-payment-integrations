@@ -1,0 +1,38 @@
+id: sdk-flutterwave-node
+entity_type: sdk
+category: sdk
+name: Flutterwave Node SDK
+provider: Flutterwave
+region: Pan-African
+countries:
+- Nigeria
+- Ghana
+- Kenya
+- Uganda
+- Tanzania
+- Rwanda
+- Zambia
+- Malawi
+- South Africa
+- Egypt
+- Senegal
+- Cameroon
+- Côte d'Ivoire
+- Mali
+languages:
+- JavaScript
+integration_types:
+- SDK
+maintainer_type: official
+repo_url: https://github.com/Flutterwave/Node-v3
+docs_url: https://developer.flutterwave.com/docs/directory
+website_url: https://flutterwave.com
+status: active
+api_access: sign-up
+licence: null
+last_verified: '2026-11-21'
+notes: Official Node library listed in Flutterwave's SDK directory.
+tags:
+- flutterwave
+- sdk
+- node

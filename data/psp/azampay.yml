@@ -2,23 +2,31 @@ id: provider-azampay
 entity_type: provider
 category: psp
 name: AzamPay
-provider: null
+provider: Azampay Tanzania Limited
 region: East Africa
 countries:
-  - Tanzania
+- Tanzania
+- Rwanda
 languages:
-  - Go
-  - HTTP API
+- HTTP API
 integration_types:
-  - API
-  - SDK
+- API
+- Hosted Checkout
+- Push USSD
 maintainer_type: official
 repo_url: null
-docs_url: null
-website_url: https://azampay.co.tz
+docs_url: https://developerdocs.azampay.co.tz/introduction
+website_url: https://www.azampay.com
 status: active
-notes: PSP focused on Tanzania with community-maintained Go integrations.
+api_access: sign-up
+licence: Bank of Tanzania, non-bank payment system provider (Tanzania only; Rwanda licensing not verified)
+last_verified: 2026-11-21
+notes: Single API to collect and disburse across mobile wallets, cards and banks, with a self-serve sandbox portal at developers.azampay.co.tz. Docs cover a Tanzania API, a Rwanda API and an international money transfer API.
 tags:
-  - azampay
-  - tanzania
-  - psp
+- azampay
+- checkout
+- disbursement
+- sandbox
+- tanzania
+- rwanda
+- psp

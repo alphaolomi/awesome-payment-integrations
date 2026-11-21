@@ -1,0 +1,35 @@
+id: provider-paystack
+entity_type: provider
+category: psp
+name: Paystack
+provider: null
+region: Pan-African
+countries:
+- Nigeria
+- Ghana
+- South Africa
+- Kenya
+- Côte d'Ivoire
+languages:
+- HTTP API
+integration_types:
+- API
+- SDK
+- Hosted Checkout
+- Plugin
+maintainer_type: official
+repo_url: https://github.com/PaystackOSS
+docs_url: https://paystack.com/docs/
+website_url: https://paystack.com
+status: active
+api_access: sign-up
+licence: null
+last_verified: '2026-11-21'
+notes: Card, bank, USSD, bank-transfer and mobile money collections plus transfers and identity verification through one REST API. Operates in five countries and is a Stripe company.
+tags:
+- paystack
+- cards
+- payouts
+- nigeria
+- ghana
+- kenya

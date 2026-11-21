@@ -1,0 +1,28 @@
+id: provider-interswitch
+entity_type: provider
+category: psp
+name: Interswitch
+provider: null
+region: West Africa
+countries:
+- Nigeria
+languages:
+- HTTP API
+integration_types:
+- API
+- Hosted Checkout
+maintainer_type: official
+repo_url: null
+docs_url: https://docs.interswitchgroup.com/docs/home
+website_url: https://developer.interswitchgroup.com/
+status: active
+api_access: open
+licence: null
+last_verified: '2026-11-21'
+notes: Webpay card checkout, transfers, value-added services (airtime, bills), Paycode cardless withdrawal, virtual cards and lending APIs. The quickstart publishes shared sandbox credentials.
+tags:
+- interswitch
+- webpay
+- nigeria
+- bills
+- cards

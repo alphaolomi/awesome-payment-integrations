@@ -1,0 +1,37 @@
+id: provider-orange-money-web-payment
+entity_type: provider
+category: mobile-money
+name: Orange Money
+provider: null
+region: Pan-African
+countries:
+- Mali
+- Cameroon
+- Côte d'Ivoire
+- Senegal
+- Madagascar
+- Botswana
+- Guinea
+- Guinea-Bissau
+- Sierra Leone
+- DR Congo
+- Central African Republic
+languages:
+- HTTP API
+integration_types:
+- API
+- Hosted Checkout
+maintainer_type: unknown
+repo_url: null
+docs_url: https://developer.orange.com/apis/om-webpay
+website_url: https://developer.orange.com/products/payment/
+status: active
+api_access: on-request
+licence: null
+last_verified: 2026-11-21
+notes: Lets merchants accept Orange Money online with OTP approval; merchants apply via Orange Developer and can test before go-live. No public API reference or sandbox page found, so access is by application.
+tags:
+- orange
+- orange-money
+- web-payment
+- otp

@@ -1,0 +1,25 @@
+id: sdk-selcom-wordpress
+entity_type: sdk
+category: plugin
+name: Selcom WordPress plugin
+provider: Selcom
+region: East Africa
+countries:
+- Tanzania
+languages:
+- PHP
+integration_types:
+- Plugin
+maintainer_type: official
+repo_url: https://github.com/selcompaytechltd/selcom-apigw-client-wordpress
+docs_url: https://developers.selcommobile.com
+website_url: https://www.selcom.net
+status: active
+api_access: on-request
+licence: null
+last_verified: 2026-11-21
+notes: Official WordPress integration for the Selcom API gateway, listed on the Selcom developer page. Last commit Feb 2025.
+tags:
+- selcom
+- wordpress
+- plugin

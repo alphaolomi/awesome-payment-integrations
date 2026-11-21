@@ -1,0 +1,29 @@
+id: sdk-paystack-php
+entity_type: sdk
+category: sdk
+name: Paystack PHP library
+provider: Paystack
+region: Pan-African
+countries:
+- Nigeria
+- Ghana
+- South Africa
+- Kenya
+- Côte d'Ivoire
+languages:
+- PHP
+integration_types:
+- SDK
+maintainer_type: official
+repo_url: https://github.com/PaystackOSS/paystack-php
+docs_url: https://paystack.com/docs/developer-tools/
+website_url: https://paystack.com
+status: active
+api_access: sign-up
+licence: null
+last_verified: '2026-11-21'
+notes: PHP wrapper for the Paystack API in the PaystackOSS org.
+tags:
+- paystack
+- sdk
+- php

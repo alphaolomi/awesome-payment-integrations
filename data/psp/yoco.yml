@@ -1,0 +1,28 @@
+id: provider-yoco
+entity_type: provider
+category: psp
+name: Yoco
+provider: null
+region: Southern Africa
+countries:
+- South Africa
+languages:
+- HTTP API
+integration_types:
+- API
+- SDK
+- Plugin
+maintainer_type: unknown
+repo_url: null
+docs_url: https://developer.yoco.com/
+website_url: https://www.yoco.com/za/
+status: active
+api_access: sign-up
+licence: null
+last_verified: 2026-11-21
+notes: South African card payments provider with an online checkout API, in-person POS SDKs for iOS and Android, and Shopify, WooCommerce and Wix plugins.
+tags:
+- yoco
+- south-africa
+- pos
+- cards

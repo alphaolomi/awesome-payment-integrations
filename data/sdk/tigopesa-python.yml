@@ -2,15 +2,15 @@ id: sdk-tigopesa-python
 entity_type: sdk
 category: sdk
 name: Tigo Pesa Python
-provider: Mixx by Yas
+provider: Mixx by Yas (formerly Tigo Pesa)
 region: East Africa
 countries:
-  - Tanzania
+- Tanzania
 languages:
-  - Python
+- Python
 integration_types:
-  - API
-  - SDK
+- API
+- SDK
 maintainer_type: community
 repo_url: https://github.com/Kalebu/tigopesa
 docs_url: https://github.com/Kalebu/tigopesa
@@ -18,6 +18,6 @@ website_url: null
 status: active
 notes: Community Python library for Tigo Pesa integration.
 tags:
-  - tigo-pesa
-  - python
-  - sdk
+- tigo-pesa
+- python
+- sdk

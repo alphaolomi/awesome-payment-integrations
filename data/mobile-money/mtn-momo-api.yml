@@ -1,0 +1,38 @@
+id: provider-mtn-momo-api
+entity_type: provider
+category: mobile-money
+name: MTN MoMo
+provider: null
+region: Pan-African
+countries:
+- Uganda
+- Ghana
+- Côte d'Ivoire
+- Zambia
+- Cameroon
+- Benin
+- Congo
+- Eswatini
+- Guinea
+- South Africa
+- Liberia
+languages:
+- HTTP API
+integration_types:
+- API
+- Push USSD
+maintainer_type: unknown
+repo_url: null
+docs_url: https://momodeveloper.mtn.com/
+website_url: https://momodeveloper.mtn.com/
+status: active
+api_access: sign-up
+licence: null
+last_verified: 2026-11-21
+notes: MTN MoMo Collections (request to pay) and Disbursements APIs with a self-serve sandbox; production access is per country after go-live KYC. Country list is from MTN's developer community X-Target-Environment table.
+tags:
+- mtn
+- momo
+- collections
+- disbursements
+- sandbox

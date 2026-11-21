@@ -1,0 +1,28 @@
+id: provider-irembopay
+entity_type: provider
+category: psp
+name: IremboPay
+provider: Irembo
+region: East Africa
+countries:
+- Rwanda
+languages:
+- HTTP API
+integration_types:
+- API
+- SDK
+- Hosted Checkout
+maintainer_type: official
+repo_url: null
+docs_url: https://irembopay.gitbook.io/irembopay-api-docs/getting-started/quickstart
+website_url: https://irembo.com/irembopay/
+status: active
+api_access: on-request
+licence: National Bank of Rwanda (stated by provider; licence type not stated)
+last_verified: 2026-11-21
+notes: 'Invoice-based API accepting Rwandan banks, cards, MTN MoMo and Airtel Money. No self-onboarding: contact irembopay@irembo.com for KYC and keys.'
+tags:
+- irembo
+- rwanda
+- invoice
+- momo

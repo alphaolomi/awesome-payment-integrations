@@ -1,0 +1,25 @@
+id: sdk-campay-python
+entity_type: sdk
+category: sdk
+name: campay-python-sdk
+provider: CamPay
+region: Central Africa
+countries:
+- Cameroon
+languages:
+- Python
+integration_types:
+- SDK
+maintainer_type: official
+repo_url: https://github.com/CamPay/campay-python-sdk
+docs_url: null
+website_url: null
+status: active
+api_access: sign-up
+licence: null
+last_verified: 2026-11-21
+notes: CamPay's Python client; repo updated 20 Nov 2026, GPL-3.0.
+tags:
+- campay
+- python
+- sdk

@@ -1,0 +1,25 @@
+id: sdk-selcom-java
+entity_type: sdk
+category: sdk
+name: Selcom API Gateway client (Java)
+provider: Selcom
+region: East Africa
+countries:
+- Tanzania
+languages:
+- Java
+integration_types:
+- SDK
+maintainer_type: official
+repo_url: https://github.com/selcompaytechltd/selcom-apigw-client-java
+docs_url: https://developers.selcommobile.com
+website_url: https://www.selcom.net
+status: active
+api_access: on-request
+licence: null
+last_verified: 2026-11-21
+notes: Official Java client for the Selcom API gateway (request signing and calls), listed on the Selcom developer page. Last commit 2023.
+tags:
+- selcom
+- java
+- sdk

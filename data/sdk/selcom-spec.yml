@@ -5,11 +5,11 @@ name: selcom-spec
 provider: Selcom
 region: East Africa
 countries:
-  - Tanzania
+- Tanzania
 languages:
-  - Language-agnostic
+- Language-agnostic
 integration_types:
-  - Utility
+- Utility
 maintainer_type: community
 repo_url: https://github.com/selcom-developers/selcom-spec
 docs_url: https://selcom-developers.github.io/spec
@@ -17,6 +17,6 @@ website_url: https://selcom-developers.github.io/
 status: active
 notes: Shared specification and test vectors for Selcom API clients in any language.
 tags:
-  - selcom
-  - specification
-  - tanzania
+- selcom
+- specification
+- tanzania

@@ -1,0 +1,28 @@
+id: provider-peach-payments
+entity_type: provider
+category: psp
+name: Peach Payments
+provider: null
+region: Southern Africa
+countries:
+- South Africa
+languages:
+- HTTP API
+integration_types:
+- API
+- Hosted Checkout
+- Plugin
+maintainer_type: unknown
+repo_url: null
+docs_url: https://developer.peachpayments.com/docs/product-portfolio-overview
+website_url: https://www.peachpayments.com/
+status: active
+api_access: sign-up
+licence: null
+last_verified: 2026-11-21
+notes: Payment orchestration with payments API, hosted and embedded checkout, payment links, payouts and plugins. Docs mention ZAR and West African mobile-money payouts; other countries unverified.
+tags:
+- peach
+- orchestration
+- payouts
+- zar

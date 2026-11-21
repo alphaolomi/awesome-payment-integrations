@@ -2,18 +2,18 @@ id: sdk-dpo-laravel
 entity_type: sdk
 category: sdk
 name: DPO Laravel
-provider: DPO Group
+provider: DPO Pay
 region: Pan-African
 countries:
-  - Tanzania
-  - Kenya
-  - Uganda
+- Tanzania
+- Kenya
+- Uganda
 languages:
-  - Laravel
-  - PHP
+- Laravel
+- PHP
 integration_types:
-  - API
-  - SDK
+- API
+- SDK
 maintainer_type: community
 repo_url: https://github.com/Zepson-Technologies/dpo-laravel
 docs_url: https://github.com/Zepson-Technologies/dpo-laravel
@@ -21,6 +21,6 @@ website_url: null
 status: active
 notes: Community Laravel package for DPO integrations.
 tags:
-  - dpo
-  - laravel
-  - psp
+- dpo
+- laravel
+- psp

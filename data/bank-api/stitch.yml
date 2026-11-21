@@ -1,0 +1,27 @@
+id: provider-stitch
+entity_type: provider
+category: bank-api
+name: Stitch
+provider: null
+region: Southern Africa
+countries:
+- South Africa
+languages:
+- HTTP API
+integration_types:
+- API
+- Hosted Checkout
+maintainer_type: unknown
+repo_url: null
+docs_url: https://docs.stitch.money/
+website_url: https://stitch.money/
+status: active
+api_access: sign-up
+licence: null
+last_verified: 2026-11-21
+notes: GraphQL API for pay-by-bank, Capitec Pay, cards, DebiCheck and disbursements, with an online IDE. Docs do not state countries; website positions it for South Africa.
+tags:
+- stitch
+- graphql
+- pay-by-bank
+- debicheck

@@ -1,0 +1,29 @@
+id: provider-paytech-senegal
+entity_type: provider
+category: psp
+name: PayTech
+provider: null
+region: West Africa
+countries:
+- Senegal
+languages:
+- HTTP API
+integration_types:
+- API
+- SDK
+- Hosted Checkout
+maintainer_type: official
+repo_url: null
+docs_url: https://docs.intech.sn/
+website_url: https://paytech.sn/
+status: active
+api_access: sign-up
+licence: null
+last_verified: '2026-11-21'
+notes: Senegalese payment platform (Orange Money, cards, Wave) with the PayTech checkout API and mobile SDKs, plus the Intech REST API for cash-in/out, bills and top-ups.
+tags:
+- paytech
+- intech
+- senegal
+- orange-money
+- wave

@@ -1,0 +1,27 @@
+id: provider-konnect-network
+entity_type: provider
+category: psp
+name: Konnect
+provider: null
+region: North Africa
+countries:
+- Tunisia
+languages:
+- HTTP API
+integration_types:
+- API
+- Hosted Checkout
+- Plugin
+maintainer_type: unknown
+repo_url: null
+docs_url: https://docs.konnect.network/docs/en/overview/getting-started
+website_url: https://konnect.network/
+status: active
+api_access: sign-up
+licence: null
+last_verified: 2026-11-21
+notes: Online payment gateway with sandbox and production dashboards, hosted checkout, payment links, PrestaShop/WooCommerce/WHMCS plugins. Docs do not name Tunisia; the French-language site is Tunisian by branding.
+tags:
+- konnect
+- tunisia
+- hosted-checkout

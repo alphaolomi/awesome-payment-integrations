@@ -1,47 +1,168 @@
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
+/* Malipo: warm earth. Terracotta and ochre on warm off-white, charcoal ink. */
 
-/* You can override the default Infima variables here. */
 :root {
-  /* Black / white / cream palette */
-  --ifm-color-primary: #111111;
-  --ifm-color-primary-dark: #0f0f0f;
-  --ifm-color-primary-darker: #0d0d0d;
-  --ifm-color-primary-darkest: #080808;
-  --ifm-color-primary-light: #1f1f1f;
-  --ifm-color-primary-lighter: #2a2a2a;
-  --ifm-color-primary-lightest: #3a3a3a;
-  --ifm-background-color: #f8f3e8;
-  --ifm-background-surface-color: #fffdf8;
-  --ifm-font-color-base: #121212;
-  --ifm-navbar-background-color: #fffaf0;
-  --ifm-footer-background-color: #111111;
-  --ifm-footer-color: #f8f3e8;
-  --ifm-footer-link-color: #f8f3e8;
+  --mp-bg: #fbf6ee;
+  --mp-surface: #fffdf8;
+  --mp-sand: #e9dfd0;
+  --mp-rule: #e3d6c3;
+  --mp-ink: #1f1a17;
+  --mp-ink-soft: #5c524a;
+  --mp-terracotta: #b5452a;
+  --mp-terracotta-ink: #9a3a24;
+  --mp-ochre: #d99a2b;
+  --mp-ochre-soft: #f6e7c8;
+  --mp-green: #2f6b4f;
+  --mp-green-soft: #dcebe2;
+  --mp-blue: #34576f;
+  --mp-blue-soft: #dde7ee;
+
+  --ifm-color-primary: #b5452a;
+  --ifm-color-primary-dark: #a33e26;
+  --ifm-color-primary-darker: #9a3a24;
+  --ifm-color-primary-darkest: #7f301d;
+  --ifm-color-primary-light: #c24e31;
+  --ifm-color-primary-lighter: #c95638;
+  --ifm-color-primary-lightest: #d16a4f;
+
+  --ifm-background-color: var(--mp-bg);
+  --ifm-background-surface-color: var(--mp-surface);
+  --ifm-font-color-base: var(--mp-ink);
+  --ifm-heading-color: var(--mp-ink);
+  --ifm-link-color: var(--mp-terracotta-ink);
+  --ifm-navbar-background-color: rgba(251, 246, 238, 0.92);
+  --ifm-footer-background-color: #1f1a17;
+  --ifm-footer-color: #e9dfd0;
+  --ifm-footer-link-color: #f3eadd;
   --ifm-footer-title-color: #ffffff;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-toc-border-color: var(--mp-rule);
+  --ifm-color-emphasis-300: var(--mp-rule);
+
+  --ifm-font-family-base: 'Instrument Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --ifm-heading-font-family: 'Fraunces', Georgia, serif;
+  --ifm-font-family-monospace: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+  --ifm-heading-font-weight: 650;
+  --ifm-code-font-size: 92%;
+  --ifm-global-radius: 10px;
+  --docusaurus-highlighted-code-line-bg: rgba(181, 69, 42, 0.1);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #f8f3e8;
-  --ifm-color-primary-dark: #f2ecdf;
-  --ifm-color-primary-darker: #ebe4d6;
-  --ifm-color-primary-darkest: #ded4c0;
-  --ifm-color-primary-light: #fbf7ef;
-  --ifm-color-primary-lighter: #fdfaf3;
-  --ifm-color-primary-lightest: #fffdf9;
-  --ifm-background-color: #0f0f0f;
-  --ifm-background-surface-color: #161616;
-  --ifm-font-color-base: #f8f3e8;
-  --ifm-navbar-background-color: #111111;
-  --ifm-footer-background-color: #090909;
-  --ifm-footer-color: #f8f3e8;
-  --ifm-footer-link-color: #f8f3e8;
-  --ifm-footer-title-color: #ffffff;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --mp-bg: #171310;
+  --mp-surface: #211b17;
+  --mp-sand: #2e2620;
+  --mp-rule: #3a3029;
+  --mp-ink: #f3eadd;
+  --mp-ink-soft: #bfb2a2;
+  --mp-terracotta: #e07a5c;
+  --mp-terracotta-ink: #ec9479;
+  --mp-ochre: #e8b04b;
+  --mp-ochre-soft: #3a2e17;
+  --mp-green: #8fc9a8;
+  --mp-green-soft: #1d3127;
+  --mp-blue: #a9c6da;
+  --mp-blue-soft: #1d2a33;
+
+  --ifm-color-primary: #e07a5c;
+  --ifm-color-primary-dark: #dc6a48;
+  --ifm-color-primary-darker: #d9613e;
+  --ifm-color-primary-darkest: #c44c29;
+  --ifm-color-primary-light: #e48a70;
+  --ifm-color-primary-lighter: #e7937a;
+  --ifm-color-primary-lightest: #ecad99;
+
+  --ifm-background-color: var(--mp-bg);
+  --ifm-background-surface-color: var(--mp-surface);
+  --ifm-font-color-base: var(--mp-ink);
+  --ifm-heading-color: var(--mp-ink);
+  --ifm-link-color: var(--mp-terracotta-ink);
+  --ifm-navbar-background-color: rgba(23, 19, 16, 0.92);
+  --ifm-footer-background-color: #0f0c0a;
+  --docusaurus-highlighted-code-line-bg: rgba(224, 122, 92, 0.16);
+}
+
+body {
+  background: var(--mp-bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+  letter-spacing: -0.015em;
+}
+
+.navbar {
+  backdrop-filter: saturate(1.4) blur(10px);
+  box-shadow: 0 1px 0 var(--mp-rule);
+}
+
+.navbar__title {
+  font-family: var(--ifm-heading-font-family);
+  font-weight: 700;
+  font-size: 1.3rem;
+  letter-spacing: -0.01em;
+}
+
+.navbar__logo {
+  height: 1.9rem;
+}
+
+.footer--dark {
+  --ifm-footer-background-color: #1f1a17;
+}
+
+[data-theme='dark'] .footer--dark {
+  --ifm-footer-background-color: #0f0c0a;
+}
+
+:focus-visible {
+  outline: 2px solid var(--mp-ochre);
+  outline-offset: 2px;
+}
+
+/* API access badges, shared by the homepage and the directory */
+.mp-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.1rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  line-height: 1.6;
+  white-space: nowrap;
+}
+
+.mp-badge::before {
+  content: '';
+  width: 0.45rem;
+  height: 0.45rem;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+.mp-badge--open {
+  background: var(--mp-green-soft);
+  color: var(--mp-green);
+}
+
+.mp-badge--sign-up {
+  background: var(--mp-ochre-soft);
+  color: #8a5a07;
+}
+
+[data-theme='dark'] .mp-badge--sign-up {
+  color: var(--mp-ochre);
+}
+
+.mp-badge--on-request {
+  background: var(--mp-blue-soft);
+  color: var(--mp-blue);
+}
+
+/* Footer note under the main footer */
+.footer + div code {
+  background: rgba(255, 255, 255, 0.1);
+  border: 0;
+  color: inherit;
 }

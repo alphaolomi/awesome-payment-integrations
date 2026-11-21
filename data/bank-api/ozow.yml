@@ -1,0 +1,28 @@
+id: provider-ozow
+entity_type: provider
+category: bank-api
+name: Ozow
+provider: null
+region: Southern Africa
+countries:
+- South Africa
+languages:
+- HTTP API
+integration_types:
+- API
+- Hosted Checkout
+- Plugin
+maintainer_type: unknown
+repo_url: null
+docs_url: https://hub.ozow.com/
+website_url: https://ozow.com/
+status: active
+api_access: on-request
+licence: null
+last_verified: 2026-11-21
+notes: Pay-by-bank (instant EFT) payments, refunds and payouts via the One API (OAuth bearer token). Requires an Ozow merchant account.
+tags:
+- ozow
+- pay-by-bank
+- instant-eft
+- payouts

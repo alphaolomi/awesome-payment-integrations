@@ -2,16 +2,16 @@ id: sdk-django-nmb
 entity_type: sdk
 category: sdk
 name: Django NMB
-provider: NMB Bank Merchant Gateway
+provider: NMB Bank
 region: East Africa
 countries:
-  - Tanzania
+- Tanzania
 languages:
-  - Python
-  - Django
+- Python
+- Django
 integration_types:
-  - API
-  - SDK
+- API
+- SDK
 maintainer_type: community
 repo_url: https://github.com/devmedtz/django-nmb
 docs_url: https://github.com/devmedtz/django-nmb
@@ -19,6 +19,6 @@ website_url: null
 status: active
 notes: Django package for NMB merchant gateway integrations.
 tags:
-  - nmb
-  - django
-  - python
+- nmb
+- django
+- python

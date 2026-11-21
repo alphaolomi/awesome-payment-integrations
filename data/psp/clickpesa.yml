@@ -1,0 +1,30 @@
+id: provider-clickpesa
+entity_type: provider
+category: psp
+name: ClickPesa
+provider: DLT CP Tanzania Company Limited (ClickPesa Tanzania)
+region: East Africa
+countries:
+- Tanzania
+languages:
+- HTTP API
+integration_types:
+- API
+- Hosted Checkout
+- Push USSD
+maintainer_type: official
+repo_url: https://github.com/ClickPesa
+docs_url: https://docs.clickpesa.com
+website_url: https://clickpesa.com
+status: active
+api_access: sign-up
+licence: Bank of Tanzania, payment system licence NBPSL No. 0000-31 (per ClickPesa site; listed in the BoT register as DLT CP Tanzania Company Limited)
+last_verified: 2026-11-21
+notes: 'Collections (USSD push for M-Pesa, Mixx by Yas, Airtel Money and HaloPesa; cards; TanQR), payouts to mobile money and banks, hosted checkout and BillPay. No sandbox: all calls are live, and API access needs an approved KYC business account.'
+tags:
+- clickpesa
+- ussd-push
+- payout
+- tanqr
+- billpay
+- tanzania

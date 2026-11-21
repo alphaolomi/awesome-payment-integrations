@@ -1,0 +1,27 @@
+id: provider-flouci
+entity_type: provider
+category: mobile-money
+name: Flouci
+provider: null
+region: North Africa
+countries:
+- Tunisia
+languages:
+- HTTP API
+integration_types:
+- API
+- Hosted Checkout
+maintainer_type: unknown
+repo_url: null
+docs_url: https://docs.flouci.com/introduction
+website_url: https://flouci.com/fr
+status: active
+api_access: on-request
+licence: Central Bank of Tunisia (authorised, per Flouci docs)
+last_verified: 2026-11-21
+notes: Tunisian wallet app with payment links and an API for QR codes, pre-authorisation, webhooks and wallet payments.
+tags:
+- flouci
+- tunisia
+- wallet
+- qr

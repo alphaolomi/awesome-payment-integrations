@@ -1,0 +1,25 @@
+id: sdk-seerbit-flutter
+entity_type: sdk
+category: sdk
+name: SeerBit Flutter SDK
+provider: SeerBit
+region: West Africa
+countries:
+- Nigeria
+languages:
+- Dart
+integration_types:
+- SDK
+maintainer_type: official
+repo_url: https://github.com/seerbit/seerbit-flutter
+docs_url: https://doc.seerbit.com/sdks/overview
+website_url: https://www.seerbit.com/
+status: active
+api_access: sign-up
+licence: null
+last_verified: '2026-11-21'
+notes: Official Flutter library from SeerBit's SDK overview.
+tags:
+- seerbit
+- sdk
+- flutter

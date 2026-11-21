@@ -1,0 +1,29 @@
+id: provider-kkiapay
+entity_type: provider
+category: psp
+name: KKiaPay
+provider: null
+region: West Africa
+countries:
+- Benin
+languages:
+- HTTP API
+integration_types:
+- API
+- SDK
+- Hosted Checkout
+- Plugin
+maintainer_type: official
+repo_url: https://github.com/kkiapay
+docs_url: https://docs.kkiapay.me/v1
+website_url: https://kkiapay.me/
+status: active
+api_access: sign-up
+licence: null
+last_verified: '2026-11-21'
+notes: Aggregator by Open SI (registered in Benin) for MTN and Moov mobile money and Visa/Mastercard, in XOF only. Sandbox, JS, mobile and server SDKs and plugins are documented.
+tags:
+- kkiapay
+- benin
+- xof
+- mobile-money

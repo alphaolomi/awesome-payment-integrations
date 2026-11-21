@@ -1,0 +1,28 @@
+id: provider-campay
+entity_type: provider
+category: mobile-money
+name: CamPay
+provider: TAKWID Group
+region: Central Africa
+countries:
+- Cameroon
+languages:
+- HTTP API
+integration_types:
+- API
+- SDK
+maintainer_type: official
+repo_url: https://github.com/CamPay
+docs_url: https://documenter.getpostman.com/view/2391374/T1LV8PVA
+website_url: null
+status: active
+api_access: sign-up
+licence: null
+last_verified: 2026-11-21
+notes: Cameroon MTN and Orange mobile money collection and withdrawal API with public Postman docs (the page text was thin; the demo site was not fetched).
+tags:
+- campay
+- cameroon
+- mtn-momo
+- orange-money
+- xaf

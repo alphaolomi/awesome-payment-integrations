@@ -1,0 +1,29 @@
+id: sdk-paystack-flutter
+entity_type: sdk
+category: sdk
+name: Paystack Flutter SDK
+provider: Paystack
+region: Pan-African
+countries:
+- Nigeria
+- Ghana
+- South Africa
+- Kenya
+- Côte d'Ivoire
+languages:
+- Dart
+integration_types:
+- SDK
+maintainer_type: official
+repo_url: https://github.com/PaystackOSS/paystack_flutter
+docs_url: https://paystack.com/docs/developer-tools/flutter-sdk/
+website_url: https://paystack.com
+status: active
+api_access: sign-up
+licence: null
+last_verified: '2026-11-21'
+notes: Official Flutter SDK (pub.dev paystack_flutter_sdk); last push Mar 2025.
+tags:
+- paystack
+- sdk
+- flutter

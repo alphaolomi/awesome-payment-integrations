@@ -1,0 +1,28 @@
+id: provider-dpo-paygate
+entity_type: provider
+category: psp
+name: DPO PayGate
+provider: null
+region: Southern Africa
+countries:
+- South Africa
+languages:
+- HTTP API
+integration_types:
+- API
+- Hosted Checkout
+- Plugin
+maintainer_type: unknown
+repo_url: null
+docs_url: https://docs.paygate.co.za/paygate-by-network/
+website_url: https://www.paygate.co.za/
+status: active
+api_access: sign-up
+licence: null
+last_verified: 2026-11-21
+notes: South African gateway (part of Network/DPO) with PayWeb3 hosted page, PayHost API, sandbox and Postman collection.
+tags:
+- paygate
+- payweb3
+- payhost
+- south-africa

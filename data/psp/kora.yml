@@ -1,0 +1,34 @@
+id: provider-kora
+entity_type: provider
+category: psp
+name: Kora (formerly Korapay)
+provider: null
+region: Pan-African
+countries:
+- Nigeria
+- Ghana
+- Kenya
+- South Africa
+- Tanzania
+- Côte d'Ivoire
+languages:
+- HTTP API
+integration_types:
+- API
+- Hosted Checkout
+- Plugin
+maintainer_type: official
+repo_url: null
+docs_url: https://developers.korapay.com/
+website_url: https://www.korahq.com/
+status: active
+api_access: sign-up
+licence: null
+last_verified: '2026-11-21'
+notes: Pay-ins (checkout, virtual accounts, card, mobile money, Instant EFT), payouts, direct debit, card issuing, identity checks and conversions. korapay.com now redirects to korahq.com while the docs still sit on the korapay.com host.
+tags:
+- kora
+- korapay
+- nigeria
+- payouts
+- kyc

@@ -1,23 +1,31 @@
 id: provider-mpesa-vodacom
 entity_type: provider
 category: mobile-money
-name: M-Pesa (Vodacom)
-provider: null
+name: M-Pesa Open API (Vodacom)
+provider: Vodacom Tanzania PLC / M-Pesa Limited
 region: East Africa
 countries:
-  - Tanzania
+- Tanzania
+- DR Congo
 languages:
-  - HTTP API
+- HTTP API
 integration_types:
-  - API
-  - Push USSD
+- API
 maintainer_type: official
 repo_url: null
-docs_url: null
-website_url: https://vodacom.co.tz
+docs_url: https://business.m-pesa.com/developers/
+website_url: https://openapiportal.m-pesa.com
 status: active
-notes: Mobile money rail used by multiple community SDKs listed in this repository.
+api_access: on-request
+licence: Bank of Tanzania, electronic money issuer (M-Pesa Limited) and payment system provider (Vodacom Tanzania PLC)
+last_verified: 2026-11-21
+notes: 'Vodacom M-Pesa Open API portal: C2B, reversal and transaction status APIs with a sandbox, plus B2C and B2B products listed on business.m-pesa.com. Needs an M-Pesa business account first, then sign-up on the portal and Vodacom approval before go-live.'
 tags:
-  - mpesa
-  - tanzania
-  - mobile-money
+- m-pesa
+- vodacom
+- c2b
+- b2c
+- tanzania
+- drc
+- mpesa
+- mobile-money

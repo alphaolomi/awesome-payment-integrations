@@ -1,0 +1,43 @@
+id: provider-flutterwave
+entity_type: provider
+category: psp
+name: Flutterwave
+provider: null
+region: Pan-African
+countries:
+- Nigeria
+- Ghana
+- Kenya
+- Uganda
+- Tanzania
+- Rwanda
+- Zambia
+- Malawi
+- South Africa
+- Egypt
+- Senegal
+- Cameroon
+- Côte d'Ivoire
+- Mali
+languages:
+- HTTP API
+integration_types:
+- API
+- SDK
+- Hosted Checkout
+- Plugin
+maintainer_type: official
+repo_url: https://github.com/Flutterwave
+docs_url: https://developer.flutterwave.com/docs
+website_url: https://flutterwave.com
+status: active
+api_access: sign-up
+licence: null
+last_verified: '2026-11-21'
+notes: Collections (card, bank, mobile money, USSD, transfer), payouts, subscriptions, bill payments and verification, with v3 and v4 APIs. Country list is taken from the API reference text; the live Coverage page is dynamic.
+tags:
+- flutterwave
+- cards
+- mobile-money
+- payouts
+- pan-african

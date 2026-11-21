@@ -1,0 +1,26 @@
+id: provider-ikhokha
+entity_type: provider
+category: psp
+name: iKhokha
+provider: null
+region: Southern Africa
+countries:
+- South Africa
+languages:
+- HTTP API
+integration_types:
+- API
+- Hosted Checkout
+maintainer_type: unknown
+repo_url: null
+docs_url: https://developer.ikhokha.com/
+website_url: https://www.ikhokha.com/ik-pay-api
+status: active
+api_access: sign-up
+licence: null
+last_verified: 2026-11-21
+notes: Payment gateway API for custom sites supporting cards, Instant EFT and Google Pay; keys are generated in the merchant dashboard. The developer site is client-rendered, so details come from the product page.
+tags:
+- ikhokha
+- ik-pay
+- south-africa

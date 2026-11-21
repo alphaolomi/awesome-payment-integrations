@@ -1,0 +1,28 @@
+id: provider-cinetpay
+entity_type: provider
+category: psp
+name: CinetPay
+provider: null
+region: West Africa
+countries:
+- Côte d'Ivoire
+languages:
+- HTTP API
+integration_types:
+- API
+- SDK
+- Hosted Checkout
+maintainer_type: official
+repo_url: https://github.com/cinetpay
+docs_url: https://github.com/cinetpay
+website_url: https://github.com/cinetpay
+status: active
+api_access: sign-up
+licence: null
+last_verified: '2026-11-21'
+notes: Francophone mobile money and card aggregator with a v1 API (payments, transfers) and per-country credentials. Sandbox and production hosts are documented in the official SDK READMEs; its own docs and site hosts could not be reached during checking.
+tags:
+- cinetpay
+- francophone
+- mobile-money
+- payouts

@@ -1,0 +1,25 @@
+id: sdk-paynow-nodejs
+entity_type: sdk
+category: sdk
+name: Paynow Node.js SDK
+provider: Paynow
+region: Southern Africa
+countries:
+- Zimbabwe
+languages:
+- Node.js
+integration_types:
+- SDK
+maintainer_type: official
+repo_url: https://github.com/paynow/Paynow-NodeJS-SDK
+docs_url: https://developers.paynow.co.zw/
+website_url: https://www.paynow.co.zw/
+status: active
+api_access: sign-up
+licence: null
+last_verified: 2026-11-21
+notes: Official Node.js SDK for Paynow Zimbabwe.
+tags:
+- paynow
+- zimbabwe
+- nodejs

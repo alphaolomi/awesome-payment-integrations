@@ -1,0 +1,28 @@
+id: provider-paychangu
+entity_type: provider
+category: psp
+name: PayChangu
+provider: null
+region: Southern Africa
+countries:
+- Malawi
+languages:
+- HTTP API
+integration_types:
+- API
+- Hosted Checkout
+- Plugin
+maintainer_type: unknown
+repo_url: null
+docs_url: https://developer.paychangu.com/docs/welcome
+website_url: https://www.paychangu.com/
+status: active
+api_access: sign-up
+licence: null
+last_verified: 2026-11-21
+notes: Malawi gateway with standard, inline and HTML checkout plus direct charge for Airtel Money, TNM Mpamba, bank transfer and cards, and payment links.
+tags:
+- paychangu
+- malawi
+- airtel-money
+- mpamba

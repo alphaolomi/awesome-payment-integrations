@@ -1,0 +1,25 @@
+id: sdk-kkiapay-flutter
+entity_type: sdk
+category: sdk
+name: KKiaPay Flutter SDK
+provider: KKiaPay
+region: West Africa
+countries:
+- Benin
+languages:
+- Dart
+integration_types:
+- SDK
+maintainer_type: official
+repo_url: https://github.com/kkiapay/kkiapay-flutter-sdk
+docs_url: https://docs.kkiapay.me/v1
+website_url: https://kkiapay.me/
+status: active
+api_access: sign-up
+licence: null
+last_verified: '2026-11-21'
+notes: Official Flutter SDK in the kkiapay GitHub org.
+tags:
+- kkiapay
+- sdk
+- flutter

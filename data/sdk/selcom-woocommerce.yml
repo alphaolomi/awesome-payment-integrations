@@ -1,0 +1,25 @@
+id: sdk-selcom-woocommerce
+entity_type: sdk
+category: plugin
+name: Selcom WooCommerce plugin
+provider: Selcom
+region: East Africa
+countries:
+- Tanzania
+languages:
+- PHP
+integration_types:
+- Plugin
+maintainer_type: official
+repo_url: https://github.com/selcompaytechltd/selcom-apigw-client-woocommerce
+docs_url: https://developers.selcommobile.com
+website_url: https://www.selcom.net
+status: active
+api_access: on-request
+licence: null
+last_verified: 2026-11-21
+notes: Official WooCommerce integration for the Selcom API gateway, listed on the Selcom developer page. Last commit Feb 2025.
+tags:
+- selcom
+- woocommerce
+- plugin
